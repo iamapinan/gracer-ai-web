@@ -27,7 +27,7 @@ const Navbar = () => {
               {/* <a href="#app-store" className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">{t("appStore")}</a> */}
               <a href="/#industries" className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">{t("industries")}</a>
               <LanguageSwitcher />
-              <a href="/reseller-registration" className="bg-white text-black px-4 py-2 rounded-md text-sm font-medium ml-4">{t("becomeReseller")}</a>
+              <a href="/#reseller-registration" className="bg-white text-black px-4 py-2 rounded-md text-sm font-medium ml-4">{t("becomeReseller")}</a>
             </div>
           </div>
           <div className="md:hidden">
@@ -59,7 +59,7 @@ const Navbar = () => {
             <div className="mt-2 border-t border-gray-700 pt-3">
               <LanguageSwitcher />
             </div>
-            <a href="/reseller-registration" className="mt-4 block w-full bg-white text-black px-4 py-2 rounded-md text-sm font-medium text-center">{t("becomeReseller")}</a>
+            <a href="/#reseller-registration" className="mt-4 block w-full bg-white text-black px-4 py-2 rounded-md text-sm font-medium text-center">{t("becomeReseller")}</a>
           </div>
         </motion.div>
       )}
