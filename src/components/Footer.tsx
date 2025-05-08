@@ -35,7 +35,7 @@ const Footer = () => {
             <h3 className="text-sm font-semibold text-gray-200 uppercase tracking-wider">Support</h3>
             <ul className="mt-4 space-y-2">
               <li><a href="#" className="text-gray-400 hover:text-white">Documentation</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white">Guides</a></li>
+              <li><a href="https://www.npmjs.com/package/gracerai-sdk" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white">SDK</a></li>
               <li><a href="#" className="text-gray-400 hover:text-white">API Reference</a></li>
               <li><a href="#" className="text-gray-400 hover:text-white">Community</a></li>
             </ul>
