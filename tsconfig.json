@@ -20,5 +20,5 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src", "plugins", "cookieconsent-config.js"]
+  "include": ["src", "plugins", "cookieconsent-config.js", "assets", "site.webmanifest"]
 }
