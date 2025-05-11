@@ -5,9 +5,9 @@ const SpecsSection = () => {
     {
       category: "Starter",
       items: [
-        { name: "AI Performance (TOPS)", value: "246" },
+        { name: "AI Performance (TOPS)", value: "242" },
         { name: "RAM", value: "64GB" },
-        { name: "Storage", value: "1TB" },
+        { name: "SSD Storage", value: "1TB" },
         { name: "Model", value: "Gracer-4b" }
       ]
     },
@@ -16,7 +16,7 @@ const SpecsSection = () => {
       items: [
         { name: "AI Performance (TOPS)", value: "988" },
         { name: "RAM", value: "64GB" },
-        { name: "Storage", value: "1TB" },
+        { name: "SSD Storage", value: "1TB" },
         { name: "Model", value: "Gracer-7b" }
       ]
     },
@@ -25,7 +25,7 @@ const SpecsSection = () => {
       items: [
         { name: "AI Performance (TOPS)", value: "3,352" },
         { name: "RAM", value: "128GB" },
-        { name: "Storage", value: "2TB" },
+        { name: "SSD Storage", value: "2TB" },
         { name: "Model", value: "Gracer-14b" }
       ]
     },
@@ -34,7 +34,7 @@ const SpecsSection = () => {
       items: [
         { name: "AI Performance (TOPS)", value: "6,704" },
         { name: "RAM", value: "256GB" },
-        { name: "Storage", value: "2TB" },
+        { name: "SSD Storage", value: "2TB" },
         { name: "Model", value: "Gracer-24b" }
       ]
     }
