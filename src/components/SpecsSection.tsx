@@ -3,10 +3,10 @@ import { motion } from 'framer-motion';
 const SpecsSection = () => {
   const specs = [
     {
-      category: "Minimal",
+      category: "Starter",
       items: [
-        { name: "GPU", value: "4060" },
-        { name: "RAM", value: "32GB" },
+        { name: "AI Performance (TOPS)", value: "246" },
+        { name: "RAM", value: "64GB" },
         { name: "Storage", value: "1TB" },
         { name: "Model", value: "Gracer-4b" }
       ]
@@ -14,7 +14,7 @@ const SpecsSection = () => {
     {
       category: "Standard",
       items: [
-        { name: "GPU", value: "5070" },
+        { name: "AI Performance (TOPS)", value: "988" },
         { name: "RAM", value: "64GB" },
         { name: "Storage", value: "1TB" },
         { name: "Model", value: "Gracer-7b" }
@@ -23,7 +23,7 @@ const SpecsSection = () => {
     {
       category: "Performance",
       items: [
-        { name: "GPU", value: "5090" },
+        { name: "AI Performance (TOPS)", value: "3,352" },
         { name: "RAM", value: "128GB" },
         { name: "Storage", value: "2TB" },
         { name: "Model", value: "Gracer-14b" }
@@ -32,7 +32,7 @@ const SpecsSection = () => {
     {
       category: "Super",
       items: [
-        { name: "GPU", value: "5090 x 2" },
+        { name: "AI Performance (TOPS)", value: "6,704" },
         { name: "RAM", value: "256GB" },
         { name: "Storage", value: "2TB" },
         { name: "Model", value: "Gracer-24b" }
