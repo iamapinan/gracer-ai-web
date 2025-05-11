@@ -26,7 +26,7 @@ const SpecsSection = () => {
         { name: "AI Performance (TOPS)", value: "3,352" },
         { name: "RAM", value: "128GB" },
         { name: "SSD Storage", value: "2TB" },
-        { name: "Model", value: "Gracer-14b" }
+        { name: "Model", value: "Gracer-24b" }
       ]
     },
     {
@@ -35,7 +35,7 @@ const SpecsSection = () => {
         { name: "AI Performance (TOPS)", value: "6,704" },
         { name: "RAM", value: "256GB" },
         { name: "SSD Storage", value: "2TB" },
-        { name: "Model", value: "Gracer-24b" }
+        { name: "Model", value: "Gracer-70b" }
       ]
     }
   ];
