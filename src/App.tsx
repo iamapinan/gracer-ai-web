@@ -20,6 +20,7 @@ import ResellerRegistration from './components/ResellerRegistration';
 import PrivacyPolicy from './components/PrivacyPolicy';
 import TermsAndConditions from './components/TermsAndConditions';
 import CookiePolicy from './components/CookiePolicy';
+import ResellerSection from './components/ResellerSection';
 
 export function App() {
   // const { language } = useLanguage();
@@ -78,8 +79,8 @@ export function App() {
             <UseCasesSection />
             {/* <AppStoreSection /> */}
             <IndustrySection />
-            {/* <ResellerSection /> */}
             <ResellerRegistration />
+            {/* <ResellerSection /> */}
           </Layout>
         } />
         <Route path="/privacy-policy" element={

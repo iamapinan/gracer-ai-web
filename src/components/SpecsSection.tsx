@@ -64,7 +64,7 @@ const SpecsSection = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: groupIndex * 0.1 }}
-              className="bg-gray-900/50 backdrop-blur-sm rounded-xl p-6 border border-gray-800"
+              className="bg-gray-900/50 backdrop-blur-sm rounded-xl p-6 border border-gray-800 hover:border-blue-400 hover:shadow-lg transition-all duration-300"
             >
               <h3 className="text-2xl font-semibold mb-4 text-blue-400">{specGroup.category}</h3>
               <div className="space-y-4">
