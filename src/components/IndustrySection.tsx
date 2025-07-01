@@ -1,41 +1,43 @@
 import { motion } from 'framer-motion';
 import { Building, GraduationCap, MessageSquareCode } from 'lucide-react';
+import { useLanguage } from '../contexts/LanguageContext';
 
 const IndustrySection = () => {
+  const { t } = useLanguage();
   const industries = [
     {
-      name: "Education",
+      name: t("educationIndustry"),
       icon: <GraduationCap size={28} />,
       highlighted: true,
-      description: "ทั้งระดับประถม-มัธยม, อาชีวะ, และมหาวิทยาลัย",
+      description: t("educationIndustryDesc"),
       useCases: [
-        "การสอนแบบพิเศษสำหรับนักเรียนแต่ละคน",
-        "การสอนนักเรียนด้วยหลักสูตร AI",
-        "การช่วยวางแผนการศึกษา",
-        "การสอนภาษาต่างๆ",
-        "การจัดการข้อมูลการเรียนของนักเรียน"
+        t("educationUseCase1"),
+        t("educationUseCase2"),
+        t("educationUseCase3"),
+        t("educationUseCase4"),
+        t("educationUseCase5")
       ]
     },
     {
-      name: "Corporate",
+      name: t("corporateIndustry"),
       icon: <Building size={28} />,
-      description: "การทำงานทั่วไปในออฟฟิศ และการวางแผนการทำงาน เพื่อตอบโจทย์ธุรกิจ",
+      description: t("corporateIndustryDesc"),
       useCases: [
-        "การจัดการไฟล์",
-        "การวางแผน",
-        "เครื่องมือทางธุรกิจ",
-        "ความปลอดภัยที่มากขึ้น"
+        t("corporateUseCase1"),
+        t("corporateUseCase2"),
+        t("corporateUseCase3"),
+        t("corporateUseCase4")
       ]
     },
     {
-      name: "Development",
+      name: t("developmentIndustry"),
       icon: <MessageSquareCode size={28} />,
-      description: "เพื่อเป็นเครื่องมือที่ใช้ในการพัฒนาแอปฯ และสร้าง Community สำหรับการพัฒนาแอปพลิเคชั่น",
+      description: t("developmentIndustryDesc"),
       useCases: [
-        "การพัฒนาแอปพลิเคชั่น",
-        "การสร้าง Community สำหรับการพัฒนาแอปพลิเคชั่น",
-        "การพัฒนาแอปพลิเคชั่น",
-        "ความปลอดภัยที่มากขึ้น"
+        t("developmentUseCase1"),
+        t("developmentUseCase2"),
+        t("developmentUseCase3"),
+        t("developmentUseCase4")
       ]
     }
   ];
@@ -50,10 +52,9 @@ const IndustrySection = () => {
           transition={{ duration: 0.8 }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl font-bold mb-4">Built for Your Industry</h2>
+          <h2 className="text-4xl font-bold mb-4">{t("industryTitle")}</h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Gracer AI adapts to your specific industry needs, providing tailored solutions 
-            that enhance your workflow while maintaining data sovereignty.
+            {t("industryDesc")}
           </p>
         </motion.div>
 
@@ -95,16 +96,9 @@ const IndustrySection = () => {
                 ))}
               </ul>
               
-              {/* {industry.highlighted && industry.quote && (
-                <div className="mt-6 bg-blue-900/20 rounded-lg p-4 border border-blue-500/30">
-                  <p className="italic text-gray-300 mb-2">"{industry.quote.text}"</p>
-                  <p className="text-sm font-medium">— {industry.quote.author}, {industry.quote.role}</p>
-                </div>
-              )} */}
-              
               <div className="mt-4">
                 <a href="#" className="text-blue-400 hover:text-blue-300 text-sm font-medium flex items-center">
-                  Learn more about {industry.name} solutions
+                  {t("learnMoreAbout")} {industry.name} {t("solutions")}
                   <svg className="ml-1 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                   </svg>
@@ -123,33 +117,33 @@ const IndustrySection = () => {
         >
           <div className="md:flex items-center">
             <div className="md:w-2/3 mb-6 md:mb-0 md:pr-8">
-              <h3 className="text-2xl font-bold mb-4">Education Spotlight: Schools & Universities</h3>
+              <h3 className="text-2xl font-bold mb-4">{t("eduSpotlight")}</h3>
               <p className="text-gray-300 mb-4">
-                Gracer AI เปลี่ยนแปลงการศึกษาให้เป็นระบบที่สะดวกสำหรับนักเรียนแต่ละคน ด้วยเครื่องมือ AI ที่มีประสิทธิภาพ และรักษาความเป็นส่วนตัวของข้อมูลของนักเรียนไว้เสมอ
+                {t("eduSpotlightDesc")}
               </p>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
                 <div className="bg-black/30 rounded-lg p-3">
-                  <h4 className="font-medium mb-1">ประถม-มัธยม</h4>
-                  <p className="text-sm text-gray-400">หลักสูตร AI สำหรับนักเรียนแต่ละคน</p>
+                  <h4 className="font-medium mb-1">{t("primarySecondary")}</h4>
+                  <p className="text-sm text-gray-400">{t("primarySecondaryDesc")}</p>
                 </div>
                 <div className="bg-black/30 rounded-lg p-3">
-                  <h4 className="font-medium mb-1">มหาวิทยาลัย</h4>
-                  <p className="text-sm text-gray-400">เครื่องมือวิจัยที่มีประสิทธิภาพ และหลักสูตร AI สำหรับครู</p>
+                  <h4 className="font-medium mb-1">{t("university")}</h4>
+                  <p className="text-sm text-gray-400">{t("universityDesc")}</p>
                 </div>
                 <div className="bg-black/30 rounded-lg p-3">
-                  <h4 className="font-medium mb-1">การศึกษาพิเศษ</h4>
-                  <p className="text-sm text-gray-400">เครื่องมือที่พัฒนาการเรียนของนักเรียนที่มีความต้องการพิเศษ</p>
+                  <h4 className="font-medium mb-1">{t("specialEducation")}</h4>
+                  <p className="text-sm text-gray-400">{t("specialEducationDesc")}</p>
                 </div>
                 <div className="bg-black/30 rounded-lg p-3">
-                  <h4 className="font-medium mb-1">การจัดการข้อมูล</h4>
-                  <p className="text-sm text-gray-400">ระบบจัดการข้อมูลการเรียนของนักเรียน</p>
+                  <h4 className="font-medium mb-1">{t("dataManagement")}</h4>
+                  <p className="text-sm text-gray-400">{t("dataManagementDesc")}</p>
                 </div>
               </div>
               <button className="bg-white text-black px-6 py-2 rounded-full text-lg font-medium"
               onClick={() => {
                 window.open("/assets/ai-for-education.pdf", "_blank");
               }}>
-                คู่มือการศึกษา
+                {t("educationGuide")}
               </button>
             </div>
             <div className="md:w-1/3">

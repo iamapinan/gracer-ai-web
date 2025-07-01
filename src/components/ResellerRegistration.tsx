@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
+import { useLanguage } from '../contexts/LanguageContext';
 
 interface FormErrors {
   companyName?: string;
@@ -11,6 +12,7 @@ interface FormErrors {
 }
 
 const ResellerRegistration = () => {
+  const { t } = useLanguage();
   const [formData, setFormData] = useState({
     companyName: '',
     contactName: '',
@@ -28,34 +30,34 @@ const ResellerRegistration = () => {
     
     // ตรวจสอบชื่อบริษัท
     if (formData.companyName.length < 2) {
-      newErrors.companyName = 'ชื่อบริษัทต้องมีความยาวอย่างน้อย 2 ตัวอักษร';
+      newErrors.companyName = t("companyNameError");
     }
 
     // ตรวจสอบชื่อผู้ติดต่อ
     if (formData.contactName.length < 2) {
-      newErrors.contactName = 'ชื่อผู้ติดต่อต้องมีความยาวอย่างน้อย 2 ตัวอักษร';
+      newErrors.contactName = t("contactNameError");
     }
 
     // ตรวจสอบอีเมล
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!emailRegex.test(formData.email)) {
-      newErrors.email = 'กรุณากรอกอีเมลให้ถูกต้อง';
+      newErrors.email = t("emailError");
     }
 
     // ตรวจสอบเบอร์โทรศัพท์
     const phoneRegex = /^[0-9]{10}$/;
     if (!phoneRegex.test(formData.phone.replace(/\D/g, ''))) {
-      newErrors.phone = 'กรุณากรอกเบอร์โทรศัพท์ให้ถูกต้อง (10 หลัก)';
+      newErrors.phone = t("phoneError");
     }
 
     // ตรวจสอบที่อยู่
     if (formData.address.length < 10) {
-      newErrors.address = 'ที่อยู่ต้องมีความยาวอย่างน้อย 10 ตัวอักษร';
+      newErrors.address = t("addressError");
     }
 
     // ตรวจสอบประเภทธุรกิจ
     if (!formData.businessType) {
-      newErrors.businessType = 'กรุณาเลือกประเภทธุรกิจ';
+      newErrors.businessType = t("businessTypeError");
     }
 
     setErrors(newErrors);
@@ -67,17 +69,17 @@ const ResellerRegistration = () => {
     if (validateForm()) {
       // สร้างเนื้อหาอีเมล
       const emailBody = `
-ชื่อบริษัท: ${formData.companyName}
-ชื่อผู้ติดต่อ: ${formData.contactName}
-อีเมล: ${formData.email}
-เบอร์โทรศัพท์: ${formData.phone}
-ที่อยู่: ${formData.address}
-ประเภทธุรกิจ: ${formData.businessType}
-ข้อความเพิ่มเติม: ${formData.message}
+${t("companyName")}: ${formData.companyName}
+${t("contactName")}: ${formData.contactName}
+${t("email")}: ${formData.email}
+${t("phone")}: ${formData.phone}
+${t("address")}: ${formData.address}
+${t("businessType")}: ${formData.businessType}
+${t("additionalMessage")}: ${formData.message}
       `.trim();
 
       // สร้าง mailto link
-      const mailtoLink = `mailto:apinan@gracer.co.th?subject=ใบสมัครตัวแทนจำหน่าย Gracer AI&body=${encodeURIComponent(emailBody)}`;
+      const mailtoLink = `mailto:apinan@gracer.co.th?subject=${encodeURIComponent(t("resellerTitle"))} Gracer AI&body=${encodeURIComponent(emailBody)}`;
       
       // เปิด mailto link ในแท็บใหม่
       window.open(mailtoLink, '_blank');
@@ -108,9 +110,9 @@ const ResellerRegistration = () => {
           transition={{ duration: 0.8 }}
           className="text-center mb-16"
         >
-          <h1 className="text-4xl font-bold mb-4">ลงทะเบียนเป็นตัวแทนจำหน่าย</h1>
+          <h1 className="text-4xl font-bold mb-4">{t("resellerTitle")}</h1>
           <p className="text-xl text-gray-300">
-            กรอกข้อมูลด้านล่างเพื่อสมัครเป็นตัวแทนจำหน่าย Gracer AI
+            {t("resellerDesc")}
           </p>
         </motion.div>
 
@@ -124,7 +126,7 @@ const ResellerRegistration = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div>
               <label className="block text-sm font-medium text-gray-300 mb-2">
-                ชื่อบริษัท
+                {t("companyName")}
               </label>
               <input
                 type="text"
@@ -141,7 +143,7 @@ const ResellerRegistration = () => {
 
             <div>
               <label className="block text-sm font-medium text-gray-300 mb-2">
-                ชื่อผู้ติดต่อ
+                {t("contactName")}
               </label>
               <input
                 type="text"
@@ -158,7 +160,7 @@ const ResellerRegistration = () => {
 
             <div>
               <label className="block text-sm font-medium text-gray-300 mb-2">
-                อีเมล
+                {t("email")}
               </label>
               <input
                 type="email"
@@ -175,7 +177,7 @@ const ResellerRegistration = () => {
 
             <div>
               <label className="block text-sm font-medium text-gray-300 mb-2">
-                เบอร์โทรศัพท์
+                {t("phone")}
               </label>
               <input
                 type="tel"
@@ -192,7 +194,7 @@ const ResellerRegistration = () => {
 
             <div className="md:col-span-2">
               <label className="block text-sm font-medium text-gray-300 mb-2">
-                ที่อยู่
+                {t("address")}
               </label>
               <input
                 type="text"
@@ -209,7 +211,7 @@ const ResellerRegistration = () => {
 
             <div className="md:col-span-2">
               <label className="block text-sm font-medium text-gray-300 mb-2">
-                ประเภทธุรกิจ
+                {t("businessType")}
               </label>
               <select
                 name="businessType"
@@ -218,11 +220,12 @@ const ResellerRegistration = () => {
                 required
                 className={`w-full px-4 py-2 bg-gray-700 border ${errors.businessType ? 'border-red-500' : 'border-gray-600'} rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent`}
               >
-                <option value="">เลือกประเภทธุรกิจ</option>
-                <option value="retail">ร้านค้าปลีก</option>
-                <option value="wholesale">ร้านค้าส่ง</option>
-                <option value="service">ธุรกิจบริการ</option>
-                <option value="other">อื่นๆ</option>
+                <option value="">{t("selectBusinessType")}</option>
+                <option value="retail">{t("retailStore")}</option>
+                <option value="online">{t("onlineStore")}</option>
+                <option value="integrator">{t("systemIntegrator")}</option>
+                <option value="distributor">{t("distributor")}</option>
+                <option value="other">{t("other")}</option>
               </select>
               {errors.businessType && (
                 <p className="mt-1 text-sm text-red-500">{errors.businessType}</p>
@@ -231,13 +234,14 @@ const ResellerRegistration = () => {
 
             <div className="md:col-span-2">
               <label className="block text-sm font-medium text-gray-300 mb-2">
-                ข้อความเพิ่มเติม
+                {t("additionalMessage")}
               </label>
               <textarea
                 name="message"
                 value={formData.message}
                 onChange={handleChange}
                 rows={4}
+                placeholder={t("additionalMessagePlaceholder")}
                 className="w-full px-4 py-2 bg-gray-700 border border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
               />
             </div>
@@ -248,7 +252,7 @@ const ResellerRegistration = () => {
               type="submit"
               className="bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white px-8 py-3 rounded-full text-lg font-medium transition-all duration-300"
             >
-              ส่งใบสมัคร
+              {t("submitApplication")}
             </button>
           </div>
         </motion.form>

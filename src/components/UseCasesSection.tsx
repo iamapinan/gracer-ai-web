@@ -5,33 +5,33 @@ const UseCasesSection = () => {
   const { t } = useLanguage();
   const useCases = [
     {
-      title: "ด้านการศึกษา",
-      description: "มีแอปฯที่ทำงานร่วมกับ AI ใส่ร้างความสะดวกในการเรียนการสอน การทดสอบ การตรวจสอบผลการเรียนของนักเรียน",
+      title: t("educationUseCase"),
+      description: t("educationUseCaseDesc"),
       icon: "💼"
     },
     {
-      title: "ด้านการสร้างสรรค์",
-      description: "มีแอปฯที่ทำงานร่วมกับ AI ที่ใช้สร้างสรรค์ผลงาน รูปภาพ สไลด์ และบทความต่างๆ",
+      title: t("creativityUseCase"),
+      description: t("creativityUseCaseDesc"),
       icon: "🎨"
     },
     {
-      title: "ด้านธุรกิจ",
-      description: "มีแอปฯที่ทำงานร่วมกับ AI ในการบริหารจัดการธุรกิจ เช่นปฎิทินการนัดหมาย การจัดซื้อ การจัดส่ง การออกใบเสร็จ และอีกมากมาย",
+      title: t("businessUseCase"),
+      description: t("businessUseCaseDesc"),
       icon: "🏢"
     },
     {
-      title: "ด้านการทำงานทั่วไป",
-      description: "มีแอปฯที่ทำงานร่วมกับ AI ใส่ร้างความสะดวกในการทำงานทั่วไป เช่น การจัดการไฟล์ การวางแผน การตรวจสอบข่าว และอีกมากมาย",
+      title: t("generalWorkUseCase"),
+      description: t("generalWorkUseCaseDesc"),
       icon: "📇"
     },
     {
-      title: "ด้านความเป็นส่วนตัว",
-      description: "รักษาความเป็นส่วนตัวของข้อมูล ไม่มีการส่งข้อมูลออนไลน์ ทั้งหมดทำงานอยู่บนอุปกรณ์ของคุณเอง",
+      title: t("privacyUseCase"),
+      description: t("privacyUseCaseDesc"),
       icon: "🔒"
     },
     {
-      title: "ทำงานแบบ Offline",
-      description: "รักษาความเป็นส่วนตัวของข้อมูล ไม่มีการส่งข้อมูลออนไลน์ ทั้งหมดทำงานอยู่บนอุปกรณ์ของคุณเอง",
+      title: t("offlineWorkUseCase"),
+      description: t("offlineWorkUseCaseDesc"),
       icon: "🚫"
     }
   ];
@@ -46,9 +46,9 @@ const UseCasesSection = () => {
           transition={{ duration: 0.8 }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl font-bold mb-4">Possibilities expand with Mini Apps</h2>
+          <h2 className="text-4xl font-bold mb-4">{t("useCasesTitle")}</h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Gracer AI มีระบบ App Explorer สำหรับผู้ใช้งานที่ต้องการค้นหาแอพพลิเคชั่นที่ต้องการใช้งาน เฉพาะเจาะจงตามความต้องการของผู้ใช้งาน สามารถติดตั้งได้ฟรีไม่จำกัด สามารถเลือกติดตั้งได้ตามความต้องการของผู้ใช้งาน และเพิ่มขึ้นเรื่อยๆ
+            {t("useCasesDesc")}
           </p>
         </motion.div>
 
@@ -76,7 +76,7 @@ const UseCasesSection = () => {
           transition={{ duration: 0.8, delay: 0.4 }}
           className="mt-16 text-center"
         >
-          <h3 className="text-2xl font-semibold mb-6">พร้อมที่จะเปลี่ยนแปลงการทำงานของคุณหรือยัง?</h3>
+          <h3 className="text-2xl font-semibold mb-6">{t("readyTransform")}</h3>
           <a href="#reseller-registration" className="inline-block bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white px-8 py-3 rounded-full text-lg font-medium transition-all duration-300"
           >
             {t("becomeReseller")}
