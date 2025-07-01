@@ -5,7 +5,7 @@ import { useLanguage } from '../contexts/LanguageContext';
 const HeroSection = () => {
   const { t } = useLanguage();
   return (
-    <div className="relative pt-16 pb-32 flex content-center items-center justify-center" style={{ minHeight: "100vh" }}>
+    <div className="relative pt-16 pb-32 flex content-center items-center justify-center min-h-[calc(100vh-200px)]">
       <div className="absolute top-0 w-full h-full bg-gradient-to-b from-black to-gray-900">
         <div className="absolute inset-0 bg-[url('/hero-bg.jpg')] bg-cover bg-center opacity-20 mix-blend-overlay"></div>
       </div>
@@ -41,7 +41,7 @@ const HeroSection = () => {
                   whileTap={{ scale: 0.95 }}
                   className="bg-transparent border border-white text-white px-8 py-3 rounded-full text-lg font-medium"
                 >
-                  {t("learnMore")}
+                  {t("demo")}
                 </motion.button>
               </div>
             </motion.div>

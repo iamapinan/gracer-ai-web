@@ -15,11 +15,11 @@ export const enTranslations = {
   // Hero Section
   "heroTitle": "GRACER AI",
   "heroSubtitle": "Intelligence in your area",
-  "heroDescription": "The powerful local LLM device. Experience AI with intelligence platform and intelligence applications, complete privacy, and seamless connectivity.",
+  "heroDescription": "Experience AI with intelligence platform and intelligence applications, complete privacy, and seamless connectivity.",
   "preOrder": "Find our resellers now",
   "learnMore": "Learn More",
   "scrollExplore": "Scroll to explore",
-  
+  "demo": "Demo",
   // Feature Sections
   "performanceTitle": "Unparalleled Performance",
   "performanceDesc": "Gracer AI delivers exceptional processing capabilities, handling complex AI tasks with ease while maintaining energy efficiency.",

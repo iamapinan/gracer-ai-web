@@ -10,7 +10,6 @@ import Layout from './components/Layout';
 import Navbar from './components/Navbar';
 import HeroSection from './components/HeroSection';
 import FeatureSection from './components/FeatureSection';
-import SpecsSection from './components/SpecsSection';
 import UseCasesSection from './components/UseCasesSection';
 // import AppStoreSection from './components/AppStoreSection';
 import IndustrySection from './components/IndustrySection';
@@ -20,7 +19,6 @@ import ResellerRegistration from './components/ResellerRegistration';
 import PrivacyPolicy from './components/PrivacyPolicy';
 import TermsAndConditions from './components/TermsAndConditions';
 import CookiePolicy from './components/CookiePolicy';
-import ResellerSection from './components/ResellerSection';
 
 export function App() {
   // const { language } = useLanguage();
@@ -75,7 +73,6 @@ export function App() {
               ]}
               reverse={true}
             />
-            <SpecsSection />
             <UseCasesSection />
             {/* <AppStoreSection /> */}
             <IndustrySection />

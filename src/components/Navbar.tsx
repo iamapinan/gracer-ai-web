@@ -22,7 +22,6 @@ const Navbar = () => {
               <a href="/#platform" className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">{t("platform")}</a>
               <a href="/#models" className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">{t("models")}</a>
               <a href="/#privacy" className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">{t("privacy")}</a>
-              <a href="/#specs" className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">{t("techSpecs")}</a>
               <a href="/#use-cases" className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">{t("useCases")}</a>
               {/* <a href="#app-store" className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">{t("appStore")}</a> */}
               <a href="/#industries" className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">{t("industries")}</a>
