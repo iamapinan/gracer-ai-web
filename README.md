@@ -132,6 +132,7 @@ The demo is deterministic so it remains usable during an event even when externa
 
 ## Supporting documents
 
+- [`EXECUTION_PLAN.md`](EXECUTION_PLAN.md) — living roadmap, priorities, metrics, and current status
 - [`PROJECT_CONTEXT.md`](PROJECT_CONTEXT.md) — business objectives and product positioning
 - [`DEMO_SCRIPT.md`](DEMO_SCRIPT.md) — presentation script
 - [`SALES_PROPOSAL.md`](SALES_PROPOSAL.md) — AI Workflow Pilot sales proposal
