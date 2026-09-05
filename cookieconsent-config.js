@@ -1,9 +1,12 @@
 import 'https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.1.0/dist/cookieconsent.umd.js';
 
-// Enable dark mode
-document.documentElement.classList.add('cc--darkmode');
+const isDemoRoute = window.location.pathname === '/demo' || window.location.pathname.startsWith('/demo/');
 
-CookieConsent.run({
+if (!isDemoRoute) {
+    // Enable dark mode on the main marketing site only.
+    document.documentElement.classList.add('cc--darkmode');
+
+    CookieConsent.run({
     guiOptions: {
         consentModal: {
             layout: "box",
@@ -81,4 +84,5 @@ CookieConsent.run({
         }
     },
     disablePageInteraction: true
-});
+    });
+}

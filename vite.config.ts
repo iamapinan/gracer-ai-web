@@ -33,6 +33,10 @@ export default defineConfig({
           dest: 'assets'
         },
         {
+          src: 'demo-data/*',
+          dest: 'demo-data'
+        },
+        {
           src: 'site.webmanifest',
           dest: ''
         },
