@@ -24,7 +24,7 @@ const ResellerRegistration = () => {
   });
 
   const [errors, setErrors] = useState<FormErrors>({});
-  const [submitState, setSubmitState] = useState<'idle' | 'sending' | 'success' | 'error'>('idle');
+  const [submitState, setSubmitState] = useState<'idle' | 'sending' | 'success' | 'email' | 'error'>('idle');
 
   const validateForm = (): boolean => {
     const newErrors: FormErrors = {};
@@ -68,10 +68,17 @@ const ResellerRegistration = () => {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!validateForm()) return;
-    const webhookUrl = import.meta.env.VITE_DISCORD_WEBHOOK_URL;
-    if (!webhookUrl) { setSubmitState('error'); return; }
-    setSubmitState('sending');
     const details = `${t('companyName')}: ${formData.companyName}\n${t('contactName')}: ${formData.contactName}\n${t('email')}: ${formData.email}\n${t('phone')}: ${formData.phone}\n${t('address')}: ${formData.address}\n${t('businessType')}: ${formData.businessType}\n${t('additionalMessage')}: ${formData.message || '-'}`;
+    const webhookUrl = import.meta.env.VITE_DISCORD_WEBHOOK_URL?.trim();
+
+    if (!webhookUrl) {
+      const subject = encodeURIComponent(`ขอรับคำปรึกษา Gracer AI — ${formData.companyName}`);
+      window.location.href = `mailto:apinan@gracer.co.th?subject=${subject}&body=${encodeURIComponent(details)}`;
+      setSubmitState('email');
+      return;
+    }
+
+    setSubmitState('sending');
     try {
       const response = await fetch(webhookUrl, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ username: 'Gracer AI Website', embeds: [{ title: 'New service enquiry', description: details, color: 9188095 }] }) });
       if (!response.ok) throw new Error('Discord webhook failed');
@@ -251,6 +258,7 @@ const ResellerRegistration = () => {
               {submitState === 'sending' ? t('contactSending') : t("contactSubmit")}
             </button>
             {submitState === 'success' && <p className="mt-4 text-sm font-medium text-emerald-700">{t('contactSuccess')}</p>}
+            {submitState === 'email' && <p className="mt-4 text-sm font-medium text-[#7040d5]">{t('contactEmailFallback')}</p>}
             {submitState === 'error' && <p className="mt-4 text-sm font-medium text-red-600">{t('contactError')}</p>}
           </div>
         </motion.form>

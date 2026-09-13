@@ -66,7 +66,8 @@ export const enTranslations = {
   "contactSubmit": "Send enquiry",
   "contactSending": "Sending...",
   "contactSuccess": "Thank you. Your enquiry has been sent.",
-  "contactError": "Contact delivery is not configured yet. Please try again later.",
+  "contactEmailFallback": "Your email app has been opened with the details filled in. Please review and send.",
+  "contactError": "We couldn't send your enquiry. Please try again or email apinan@gracer.co.th.",
   // Hero Section
   "heroTitle": "GRACER AI",
   "heroSubtitle": "Intelligence in your area",

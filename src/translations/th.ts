@@ -66,7 +66,8 @@ export const thTranslations = {
   "contactSubmit": "ส่งคำขอใช้บริการ",
   "contactSending": "กำลังส่ง...",
   "contactSuccess": "ขอบคุณครับ เราได้รับข้อมูลของคุณแล้ว",
-  "contactError": "ระบบส่งข้อความยังไม่ได้ตั้งค่า กรุณาลองใหม่ภายหลัง",
+  "contactEmailFallback": "เปิดแอปอีเมลพร้อมรายละเอียดแล้ว กรุณาตรวจสอบและกดส่ง",
+  "contactError": "ไม่สามารถส่งข้อความได้ กรุณาลองอีกครั้ง หรือติดต่อ apinan@gracer.co.th",
   // Hero Section
   "heroTitle": "GRACER AI",
   "heroSubtitle": "ปัญญาประดิษฐ์ในมือคุณ",

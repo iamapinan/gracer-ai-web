@@ -1,6 +1,6 @@
 # Gracer AI SME AI Operations — Execution Plan
 
-> Last updated: 5 September 2026  
+> Last updated: 13 September 2026  
 > Event date: 14 September 2026  
 > Primary objective: acquire qualified SME leads and close the first paid AI Workflow Pilot.
 
@@ -25,6 +25,7 @@ Audience
   → Qualified lead
   → 30-minute discovery
   → Sales proposal
+  → 9,999 THB Workflow Starter
   → 49,000 THB Pilot
   → 149,000 THB implementation
   → 25,000 THB/month maintenance
@@ -41,7 +42,7 @@ Success signals:
 - The page speaks to the customer rather than describing our internal strategy.
 - The main promise is tied to a concrete workflow and measurable time saving.
 - Privacy is explained as business control, not infrastructure jargon.
-- The 49,000 THB Pilot feels like a controlled test rather than a large technology purchase.
+- The 9,999 THB Workflow Starter gives SMEs with limited AI experience a lower-risk first step.
 
 ### Phase 2 — Capture and qualify demand
 
@@ -103,7 +104,7 @@ Success signals:
 | Analytics and attribution | In progress | Page view, demo start, assessment start, submission, LINE click, and booking click are measurable | UTM source is stored; event analytics not connected |
 | Sales operating process | In progress | Owner, SLA, stages, qualification checklist, and follow-up rules are practiced | Rules documented; live rehearsal pending |
 | Sales proposal | In progress | Customer-specific proposal can be sent within one business day | Base proposal exists; Google Docs workflow needs activation |
-| Event readiness | In progress | Full 5–7 minute run succeeds on laptop, mobile hotspot, and offline fallback | Deterministic demo exists; rehearsal and recording pending |
+| Event readiness | In progress | Full 5–7 minute run succeeds on laptop, mobile hotspot, and offline fallback | Deck r3 is available as PowerPoint and Google Slides; the timed presentation and booth scripts are documented; rehearsal and recording remain |
 | Production deployment | Not started | Main branch is deployed, domain works, HTTPS is valid, and forms are tested | CI exists; production verification pending |
 
 ## Next three actions
@@ -141,11 +142,11 @@ Done when: a prospect can choose a channel and reach a real conversation or conf
 
 Steps:
 
-1. Run the 5–7 minute demo from the event laptop.
+1. Rehearse the ten-slide deck together with the 5–7 minute demo from the event laptop.
 2. Ask a person unfamiliar with the project to explain the offer after watching.
 3. Confirm the QR code lands on the production assessment section with event UTM tags.
 4. Record a fallback demo video and store it locally.
-5. Rehearse the transition from demo to the 49,000 THB Pilot offer.
+5. Rehearse the transition from demo to the 9,999 THB Workflow Starter, with the 49,000 THB Pilot as the next step for qualified workflows.
 6. Test the complete flow from QR scan to sales notification.
 
 Done when: three consecutive rehearsals finish within seven minutes and create a correctly attributed lead.
@@ -159,6 +160,7 @@ Done when: three consecutive rehearsals finish within seven minutes and create a
 | P0 | Deploy current `main` to production | Not started | 8 Sep | Domain, HTTPS, `/`, and `/demo` pass smoke test |
 | P0 | Add event QR code with UTM attribution | Not started | 8 Sep | Submission records `sme-connect-rayong-2026` |
 | P0 | Rehearse and record offline fallback | Not started | 10 Sep | Three successful timed runs plus local video |
+| P0 | Create SME event presentation deck | Done | 13 Sep | `artifacts/presentations/Gracer-AI-Company-Overview-2026-r3.pptx` includes the grand cover, ready-now versus contact-first product grouping, and 9,999 THB Workflow Starter |
 | P1 | Add conversion analytics | Not started | 9 Sep | Six funnel events visible in analytics |
 | P1 | Prepare LINE saved replies and discovery agenda | Not started | 9 Sep | Team can handle a sample lead consistently |
 | P1 | Test email sender and spam placement | Not started | 10 Sep | Gmail and business-domain inbox tests pass |
@@ -219,7 +221,7 @@ Every Pilot must define:
 | Prospects distrust unknown calls | Never cold-call; call only after explicit selection or appointment |
 | Concern about confidential data | Explain deployment choices and never collect company documents through the public form |
 | Demo depends on unstable internet | Keep deterministic and recorded offline fallbacks on the event laptop |
-| 49,000 THB feels expensive without proof | Anchor the price to one measurable workflow and agree acceptance criteria first |
+| SMEs with limited AI experience are not ready for a 49,000 THB Pilot | Offer a 9,999 THB Workflow Starter, then propose the full Pilot only after the initial workflow is understood |
 | Leads are collected but not followed up | Every lead requires an owner, stage, SLA, and next-follow-up date |
 
 ## Decision log
@@ -231,6 +233,7 @@ Every Pilot must define:
 | 5 Sep 2026 | Use LINE as the preferred conversation path | Better fit for Thai customer behavior than email-only outreach |
 | 5 Sep 2026 | Do not use unsolicited calls | Low trust due to scam-call prevalence |
 | 5 Sep 2026 | Start with a 49,000 THB controlled Pilot | Reduces buyer risk before implementation investment |
+| 13 Sep 2026 | Add a 9,999 THB Workflow Starter before the full Pilot | Lowers the first commitment for SMEs that are still learning how AI applies to their business |
 
 ## Update log
 
@@ -241,3 +244,9 @@ Every Pilot must define:
 | 5 Sep 2026 | Replaced the Calendar URL with a verified public Appointment Schedule URL; full booking confirmation test remains. |
 | 5 Sep 2026 | Investigated a missing browser lead; verified environment and endpoint, then changed browser transport to no-cors with a local recovery copy. |
 | 5 Sep 2026 | Located browser leads at rows 201–202; diagnosed prefilled formulas affecting `appendRow()` and a column-schema mismatch between Apps Script and the Sheet dashboard. |
+| 13 Sep 2026 | Completed the nine-slide SME event presentation deck and added it to the rehearsal path. |
+| 13 Sep 2026 | Expanded the presentation scope to cover all three Gracer AI pillars and the organisation-wide product portfolio. |
+| 13 Sep 2026 | Completed the revised ten-slide company overview deck with AI Transformation and Workflow as the main focus. |
+| 13 Sep 2026 | Revised the event offer architecture to introduce a 9,999 THB Workflow Starter before the full 49,000 THB Pilot. |
+| 13 Sep 2026 | Completed and validated company overview deck r3 after review of the cover, product readiness, and SME entry price. |
+| 13 Sep 2026 | Imported deck r3 as native Google Slides and completed `PRESENTATION_AND_BOOTH_SCRIPT.md`; aligned the demo script with the 9,999 THB Starter entry offer. |

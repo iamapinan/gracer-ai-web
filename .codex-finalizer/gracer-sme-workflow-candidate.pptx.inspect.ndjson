@@ -1,0 +1,185 @@
+{"kind":"deck","id":"pr/b6r3hn","name":"Deck"}
+{"kind":"layout","layoutId":"f3b343c8-53a0-4fcf-8745-920be643f2e8","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"375b2e26-ae4d-4727-9fc6-ba087d37db07","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/7po68h","slide":1,"title":"AI ที่ช่วยให้งานธุรกิจ","textShapes":4}
+{"kind":"shape","id":"sh/ra983ah0","slide":1,"bbox":[0,0,680,720]}
+{"kind":"textbox","id":"sh/p8rq1kzu","slide":1,"text":"AI ที่ช่วยให้งานธุรกิจ\nเสร็จเร็วขึ้น","textPreview":"AI ที่ช่วยให้งานธุรกิจ | เสร็จเร็วขึ้น","textChars":36,"textLines":2,"bbox":[72,176,600,186]}
+{"kind":"textbox","id":"sh/47ip8fy9","slide":1,"text":"ตัวอย่างการจัดทำใบเสนอราคา\nจากข้อมูลและกฎของบริษัท","textPreview":"ตัวอย่างการจัดทำใบเสนอราคา | จากข้อมูลและกฎของบริษัท","textChars":50,"textLines":2,"bbox":[76,394,490,78]}
+{"kind":"shape","id":"sh/3698zaho","slide":1,"bbox":[76,534,395,56]}
+{"kind":"textbox","id":"sh/25g765g3","slide":1,"text":"SME CONNECT RAYONG 2026","textPreview":"SME CONNECT RAYONG 2026","textChars":23,"textLines":1,"bbox":[96,550,355,28]}
+{"kind":"textbox","id":"sh/94bqd4zy","slide":1,"text":"14 กันยายน 2026","textPreview":"14 กันยายน 2026","textChars":15,"textLines":1,"bbox":[76,614,260,28]}
+{"kind":"image","id":"im/lwr690rm","slide":1,"name":"","geometry":"rect","alt":"Abstract AI workflow visual","bbox":[650,0,630,720]}
+{"kind":"image","id":"im/zupo7q9g","slide":1,"name":"","geometry":"rect","alt":"Gracer AI logo","bbox":[72,54,170,34]}
+{"kind":"notes","id":"nt/7po68h","slide":1,"text":"เปิดด้วยประโยค: หลายบริษัทไม่ได้ขาดคนหรือข้อมูล แต่ข้อมูลกระจายอยู่ในหลายไฟล์ งานขอราคาหนึ่งรายการจึงอาจใช้เวลาเกือบทั้งวัน\nแหล่งข้อมูล: PROJECT_CONTEXT.md และ DEMO_SCRIPT.md"}
+{"kind":"slide","id":"sl/o594va","slide":2,"title":"งานขอราคาหนึ่งรายการ อาจกินเวลาเกือบทั้งวัน","textShapes":17}
+{"kind":"textbox","id":"sh/lg3mhofm","slide":2,"text":"งานขอราคาหนึ่งรายการ อาจกินเวลาเกือบทั้งวัน","textPreview":"งานขอราคาหนึ่งรายการ อาจกินเวลาเกือบทั้งวัน","textChars":43,"textLines":1,"bbox":[72,92,1136,70]}
+{"kind":"textbox","id":"sh/kfulojyh","slide":2,"text":"พนักงานต้องค้นข้อมูล ตรวจเงื่อนไข และจัดทำเอกสารใหม่ด้วยมือ","textPreview":"พนักงานต้องค้นข้อมูล ตรวจเงื่อนไข และจัดทำเอกสารใหม่ด้วยมือ","textChars":59,"textLines":1,"bbox":[72,158,950,46]}
+{"kind":"textbox","id":"sh/7il4jyxs","slide":2,"text":"ขอราคา Pump รุ่น XP-200 จำนวน 50 ตัว\nส่งระยอง ขอภายในวันนี้","textPreview":"ขอราคา Pump รุ่น XP-200 จำนวน 50 ตัว | ส่งระยอง ขอภายในวันนี้","textChars":59,"textLines":2,"bbox":[72,240,520,100]}
+{"kind":"shape","id":"sh/6hc3qtg7","slide":2,"bbox":[72,370,500,118]}
+{"kind":"textbox","id":"sh/tknml8fy","slide":2,"text":"1 วัน","textPreview":"1 วัน","textChars":5,"textLines":1,"bbox":[100,390,180,70]}
+{"kind":"textbox","id":"sh/8jels3yd","slide":2,"text":"เวลาที่อาจใช้ต่อหนึ่งรายการ","textPreview":"เวลาที่อาจใช้ต่อหนึ่งรายการ","textChars":27,"textLines":1,"bbox":[290,405,260,54]}
+{"kind":"shape","id":"sh/v654nyx4","slide":2,"bbox":[650,350,480,0]}
+{"kind":"shape","id":"sh/ulw3udwj","slide":2,"bbox":[630,324,52,52]}
+{"kind":"textbox","id":"sh/oz6t4je5","slide":2,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[630,337,52,26]}
+{"kind":"textbox","id":"sh/90fadofq","slide":2,"text":"Catalog","textPreview":"Catalog","textChars":7,"textLines":1,"bbox":[602,392,108,52]}
+{"kind":"shape","id":"sh/mx4b29wf","slide":2,"bbox":[755,324,52,52]}
+{"kind":"textbox","id":"sh/nyxsbex0","slide":2,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[755,337,52,26]}
+{"kind":"textbox","id":"sh/w36t83eh","slide":2,"text":"Price list","textPreview":"Price list","textChars":10,"textLines":1,"bbox":[727,392,108,52]}
+{"kind":"shape","id":"sh/x4fuh8f2","slide":2,"bbox":[880,324,52,52]}
+{"kind":"textbox","id":"sh/a1ob6twb","slide":2,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[880,337,52,26]}
+{"kind":"textbox","id":"sh/b2xsfyxw","slide":2,"text":"ส่วนลด","textPreview":"ส่วนลด","textChars":6,"textLines":1,"bbox":[852,392,108,52]}
+{"kind":"shape","id":"sh/krqtc3ed","slide":2,"bbox":[1005,324,52,52]}
+{"kind":"textbox","id":"sh/lszul8fy","slide":2,"text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[1005,337,52,26]}
+{"kind":"textbox","id":"sh/tovap8n2","slide":2,"text":"Stock","textPreview":"Stock","textChars":5,"textLines":1,"bbox":[977,392,108,52]}
+{"kind":"shape","id":"sh/snmtw36h","slide":2,"bbox":[1130,324,52,52]}
+{"kind":"textbox","id":"sh/7mdsnypc","slide":2,"text":"5","textPreview":"5","textChars":1,"textLines":1,"bbox":[1130,337,52,26]}
+{"kind":"textbox","id":"sh/6l4butor","slide":2,"text":"ใบเสนอราคา","textPreview":"ใบเสนอราคา","textChars":10,"textLines":1,"bbox":[1102,392,108,52]}
+{"kind":"textbox","id":"sh/hcfat8ne","slide":2,"text":"เวลาหายไปกับการเปิดไฟล์และคัดลอกข้อมูล มากกว่าการดูแลลูกค้า","textPreview":"เวลาหายไปกับการเปิดไฟล์และคัดลอกข้อมูล มากกว่าการดูแลลูกค้า","textChars":59,"textLines":1,"bbox":[650,500,500,80]}
+{"kind":"textbox","id":"sh/gb6t0n6t","slide":2,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[1180,670,40,20]}
+{"kind":"image","id":"im/bad4vyxc","slide":2,"name":"","geometry":"rect","alt":"Gracer AI logo","bbox":[72,38,146,30]}
+{"kind":"notes","id":"nt/o594va","slide":2,"text":"อธิบาย Before workflow: ฝ่ายขายต้องเปิด catalog, ราคา, ส่วนลด, นโยบายจัดส่ง และข้อมูลสต็อก จากนั้นจึงพิมพ์ใบเสนอราคาใหม่\nตัวเลขหนึ่งวันเป็นผลลัพธ์ตัวอย่างของสถานการณ์สาธิต ไม่ใช่ค่าเฉลี่ยของทุกบริษัท\nแหล่งข้อมูล: DEMO_SCRIPT.md"}
+{"kind":"slide","id":"sl/vv18tn","slide":3,"title":"AI Workflow สำหรับงานเสนอราคา","textShapes":15}
+{"kind":"textbox","id":"sh/gn6ps3q9","slide":3,"text":"AI Workflow สำหรับงานเสนอราคา","textPreview":"AI Workflow สำหรับงานเสนอราคา","textChars":29,"textLines":1,"bbox":[72,92,1136,70]}
+{"kind":"textbox","id":"sh/hofql87u","slide":3,"text":"ระบบนำคำขอไปทำงานต่อจนได้เอกสารฉบับร่างที่พร้อมตรวจ","textPreview":"ระบบนำคำขอไปทำงานต่อจนได้เอกสารฉบับร่างที่พร้อมตรวจ","textChars":51,"textLines":1,"bbox":[72,158,950,46]}
+{"kind":"textbox","id":"sh/3qh8nip0","slide":3,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[72,220,44,30]}
+{"kind":"textbox","id":"sh/4rqpwnq5","slide":3,"text":"เข้าใจคำขอ","textPreview":"เข้าใจคำขอ","textChars":10,"textLines":1,"bbox":[132,218,250,34]}
+{"kind":"textbox","id":"sh/pszqps7q","slide":3,"text":"แยกสินค้า จำนวน ปลายทาง และกำหนดเวลา","textPreview":"แยกสินค้า จำนวน ปลายทาง และกำหนดเวลา","textChars":36,"textLines":1,"bbox":[132,253,450,40]}
+{"kind":"shape","id":"sh/qt8ryx8b","slide":3,"bbox":[72,302,510,0]}
+{"kind":"textbox","id":"sh/ruh8r2pw","slide":3,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[72,320,44,30]}
+{"kind":"textbox","id":"sh/3yxcjidk","slide":3,"text":"ค้นข้อมูลภายใน","textPreview":"ค้นข้อมูลภายใน","textChars":14,"textLines":1,"bbox":[132,318,250,34]}
+{"kind":"textbox","id":"sh/2xobadcz","slide":3,"text":"ใช้เฉพาะเอกสารที่บริษัทอนุญาต","textPreview":"ใช้เฉพาะเอกสารที่บริษัทอนุญาต","textChars":29,"textLines":1,"bbox":[132,353,450,40]}
+{"kind":"shape","id":"sh/p0ful8va","slide":3,"bbox":[72,402,510,0]}
+{"kind":"textbox","id":"sh/4z6dc3u5","slide":3,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[72,420,44,30]}
+{"kind":"textbox","id":"sh/fudcfyd8","slide":3,"text":"ใช้กฎธุรกิจ","textPreview":"ใช้กฎธุรกิจ","textChars":11,"textLines":1,"bbox":[132,418,250,34]}
+{"kind":"textbox","id":"sh/ut4b6tcn","slide":3,"text":"ตรวจราคา ส่วนลด สต็อก และการจัดส่ง","textPreview":"ตรวจราคา ส่วนลด สต็อก และการจัดส่ง","textChars":34,"textLines":1,"bbox":[132,453,450,40]}
+{"kind":"shape","id":"sh/hwfuh8ve","slide":3,"bbox":[72,502,510,0]}
+{"kind":"textbox","id":"sh/gv6t83ut","slide":3,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[72,520,44,30]}
+{"kind":"textbox","id":"sh/zqhcr2ds","slide":3,"text":"สร้างฉบับร่าง","textPreview":"สร้างฉบับร่าง","textChars":13,"textLines":1,"bbox":[132,518,250,34]}
+{"kind":"textbox","id":"sh/ep8vixc7","slide":3,"text":"เตรียมใบเสนอราคาและข้อความตอบลูกค้า","textPreview":"เตรียมใบเสนอราคาและข้อความตอบลูกค้า","textChars":35,"textLines":1,"bbox":[132,553,450,40]}
+{"kind":"textbox","id":"sh/axcn6l0r","slide":3,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[1180,670,40,20]}
+{"kind":"image","id":"im/694jmlo7","slide":3,"name":"","geometry":"rect","alt":"Gracer AI logo","bbox":[72,38,146,30]}
+{"kind":"image","id":"im/fexkzqp4","slide":3,"name":"","geometry":"roundRect","alt":"Company data connected into business outputs","bbox":[690,198,518,390]}
+{"kind":"notes","id":"nt/vv18tn","slide":3,"text":"จุดสำคัญของหน้านี้คือระบบไม่ได้หยุดที่การตอบคำถาม ระบบนำข้อมูลไปทำ workflow ต่อให้ครบก่อนส่งให้พนักงานตรวจ\nแหล่งข้อมูล: PROJECT_CONTEXT.md"}
+{"kind":"slide","id":"sl/ct3qpn","slide":4,"title":"AI เข้าใจคำขอของลูกค้า","textShapes":13}
+{"kind":"shape","id":"sh/tw7ihofe","slide":4,"bbox":[67,33,156,40]}
+{"kind":"textbox","id":"sh/rup0fex8","slide":4,"text":"AI เข้าใจคำขอของลูกค้า","textPreview":"AI เข้าใจคำขอของลูกค้า","textChars":22,"textLines":1,"bbox":[72,104,800,66]}
+{"kind":"textbox","id":"sh/4ryh4jex","slide":4,"text":"ข้อความธรรมดากลายเป็นข้อมูลที่นำไปทำงานต่อได้","textPreview":"ข้อความธรรมดากลายเป็นข้อมูลที่นำไปทำงานต่อได้","textChars":45,"textLines":1,"bbox":[72,170,740,36]}
+{"kind":"shape","id":"sh/5s7idof2","slide":4,"bbox":[72,250,1136,106]}
+{"kind":"textbox","id":"sh/ipwz29wr","slide":4,"text":"“ขอราคา Pump รุ่น XP-200 จำนวน 50 ตัว ส่งระยอง ขอภายในวันนี้”","textPreview":"“ขอราคา Pump รุ่น XP-200 จำนวน 50 ตัว ส่งระยอง ขอภายในวันนี้”","textChars":61,"textLines":1,"bbox":[104,280,1072,54]}
+{"kind":"textbox","id":"sh/jqp0bexc","slide":4,"text":"สินค้า","textPreview":"สินค้า","textChars":6,"textLines":1,"bbox":[72,420,240,28]}
+{"kind":"textbox","id":"sh/onihg3e1","slide":4,"text":"Industrial Pump XP-200","textPreview":"Industrial Pump XP-200","textChars":22,"textLines":1,"bbox":[72,454,240,52]}
+{"kind":"textbox","id":"sh/porip8fm","slide":4,"text":"จำนวน","textPreview":"จำนวน","textChars":5,"textLines":1,"bbox":[356,420,240,28]}
+{"kind":"textbox","id":"sh/p4vihkfa","slide":4,"text":"50 ตัว","textPreview":"50 ตัว","textChars":6,"textLines":1,"bbox":[356,454,240,52]}
+{"kind":"textbox","id":"sh/43mhofyp","slide":4,"text":"ปลายทาง","textPreview":"ปลายทาง","textChars":7,"textLines":1,"bbox":[640,420,240,28]}
+{"kind":"textbox","id":"sh/32d0fax4","slide":4,"text":"ระยอง","textPreview":"ระยอง","textChars":5,"textLines":1,"bbox":[640,454,240,52]}
+{"kind":"textbox","id":"sh/214zm5gj","slide":4,"text":"กำหนดเวลา","textPreview":"กำหนดเวลา","textChars":9,"textLines":1,"bbox":[924,420,240,28]}
+{"kind":"textbox","id":"sh/h0vid0fy","slide":4,"text":"ภายในวันนี้","textPreview":"ภายในวันนี้","textChars":11,"textLines":1,"bbox":[924,454,240,52]}
+{"kind":"textbox","id":"sh/gzmhkfyd","slide":4,"text":"ขั้นต่อไป: ค้นข้อมูลและใช้กฎของบริษัท","textPreview":"ขั้นต่อไป: ค้นข้อมูลและใช้กฎของบริษัท","textChars":37,"textLines":1,"bbox":[72,590,550,38]}
+{"kind":"textbox","id":"sh/fyd0baxs","slide":4,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[1180,670,40,20]}
+{"kind":"image","id":"im/rqx07mpo","slide":4,"name":"","geometry":"rect","alt":"Gracer AI logo","bbox":[72,38,146,30]}
+{"kind":"notes","id":"nt/ct3qpn","slide":4,"text":"ส่งคำขอตัวอย่างในหน้าเดโม แล้วชี้ให้ผู้ชมเห็นว่าสินค้า จำนวน ปลายทาง และกำหนดเวลาถูกแยกออกมาอย่างชัดเจน\nแหล่งข้อมูล: DEMO_SCRIPT.md และ src/data/demoData.ts"}
+{"kind":"slide","id":"sl/pfp3bh","slide":5,"title":"ข้อมูลและกฎที่ระบบใช้","textShapes":23}
+{"kind":"textbox","id":"sh/ah4rq94z","slide":5,"text":"ข้อมูลและกฎที่ระบบใช้","textPreview":"ข้อมูลและกฎที่ระบบใช้","textChars":21,"textLines":1,"bbox":[72,92,1136,70]}
+{"kind":"textbox","id":"sh/bix8je5k","slide":5,"text":"พนักงานตรวจสอบได้ว่าราคาและเงื่อนไขมาจากแหล่งใด","textPreview":"พนักงานตรวจสอบได้ว่าราคาและเงื่อนไขมาจากแหล่งใด","textChars":47,"textLines":1,"bbox":[72,158,950,46]}
+{"kind":"textbox","id":"sh/kn69wjm1","slide":5,"text":"สินค้า","textPreview":"สินค้า","textChars":6,"textLines":1,"bbox":[72,226,215,32]}
+{"kind":"textbox","id":"sh/lofqponm","slide":5,"text":"XP-200","textPreview":"XP-200","textChars":6,"textLines":1,"bbox":[300,224,245,36]}
+{"kind":"textbox","id":"sh/yloru94v","slide":5,"text":"Product Catalog","textPreview":"Product Catalog","textChars":15,"textLines":1,"bbox":[550,227,260,30]}
+{"kind":"shape","id":"sh/zmx8ne5g","slide":5,"bbox":[72,276,740,0]}
+{"kind":"textbox","id":"sh/8bq90jmx","slide":5,"text":"ราคาต่อหน่วย","textPreview":"ราคาต่อหน่วย","textChars":12,"textLines":1,"bbox":[72,302,215,32]}
+{"kind":"textbox","id":"sh/9czatoni","slide":5,"text":"18,500 บาท","textPreview":"18,500 บาท","textChars":10,"textLines":1,"bbox":[300,300,245,36]}
+{"kind":"textbox","id":"sh/pon2x4v6","slide":5,"text":"Price List Sep 2026","textPreview":"Price List Sep 2026","textChars":19,"textLines":1,"bbox":[550,303,260,30]}
+{"kind":"shape","id":"sh/one1ozel","slide":5,"bbox":[72,352,740,0]}
+{"kind":"textbox","id":"sh/3m5kvud0","slide":5,"text":"ส่วนลดโครงการ","textPreview":"ส่วนลดโครงการ","textChars":13,"textLines":1,"bbox":[72,378,215,32]}
+{"kind":"textbox","id":"sh/2lwjmpwv","slide":5,"text":"7%","textPreview":"7%","textChars":2,"textLines":1,"bbox":[300,376,245,36]}
+{"kind":"textbox","id":"sh/dc7214vi","slide":5,"text":"Discount Policy","textPreview":"Discount Policy","textChars":15,"textLines":1,"bbox":[550,379,260,30]}
+{"kind":"shape","id":"sh/cby1szex","slide":5,"bbox":[72,428,740,0]}
+{"kind":"textbox","id":"sh/ba5kzedc","slide":5,"text":"สต็อกพร้อมส่ง","textPreview":"สต็อกพร้อมส่ง","textChars":13,"textLines":1,"bbox":[72,454,215,32]}
+{"kind":"textbox","id":"sh/q9wjq9wr","slide":5,"text":"68 ตัว","textPreview":"68 ตัว","textChars":6,"textLines":1,"bbox":[300,452,245,36]}
+{"kind":"textbox","id":"sh/tg3ipkvy","slide":5,"text":"Stock Record","textPreview":"Stock Record","textChars":12,"textLines":1,"bbox":[550,455,260,30]}
+{"kind":"shape","id":"sh/sfu1wfed","slide":5,"bbox":[72,504,740,0]}
+{"kind":"textbox","id":"sh/4bitsjql","slide":5,"text":"จัดส่งระยอง","textPreview":"จัดส่งระยอง","textChars":11,"textLines":1,"bbox":[72,530,215,32]}
+{"kind":"textbox","id":"sh/5cra1476","slide":5,"text":"ไม่มีค่าจัดส่ง","textPreview":"ไม่มีค่าจัดส่ง","textChars":14,"textLines":1,"bbox":[300,528,245,36]}
+{"kind":"textbox","id":"sh/i9gbq98f","slide":5,"text":"Delivery Policy","textPreview":"Delivery Policy","textChars":15,"textLines":1,"bbox":[550,531,260,30]}
+{"kind":"shape","id":"sh/japszep0","slide":5,"bbox":[72,580,740,0]}
+{"kind":"shape","id":"sh/szitwjqx","slide":5,"bbox":[855,220,353,324]}
+{"kind":"textbox","id":"sh/t0ra5o72","slide":5,"text":"ยอดสุทธิรวม VAT","textPreview":"ยอดสุทธิรวม VAT","textChars":15,"textLines":1,"bbox":[890,264,283,32]}
+{"kind":"textbox","id":"sh/6d0bu98r","slide":5,"text":"920,467.50","textPreview":"920,467.50","textChars":10,"textLines":1,"bbox":[875,318,313,78]}
+{"kind":"textbox","id":"sh/re9s3epc","slide":5,"text":"บาท","textPreview":"บาท","textChars":3,"textLines":1,"bbox":[890,398,283,32]}
+{"kind":"shape","id":"sh/g32t03qt","slide":5,"bbox":[900,455,263,0]}
+{"kind":"textbox","id":"sh/14bu9o7e","slide":5,"text":"พร้อมส่งภายใน 3 วันทำการ","textPreview":"พร้อมส่งภายใน 3 วันทำการ","textChars":24,"textLines":1,"bbox":[890,480,283,40]}
+{"kind":"textbox","id":"sh/bydwz29g","slide":5,"text":"ทุกตัวเลขมีแหล่งอ้างอิง","textPreview":"ทุกตัวเลขมีแหล่งอ้างอิง","textChars":23,"textLines":1,"bbox":[855,575,353,34]}
+{"kind":"textbox","id":"sh/qx4vqxsv","slide":5,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1180,670,40,20]}
+{"kind":"image","id":"im/4r6dcrq1","slide":5,"name":"","geometry":"rect","alt":"Gracer AI logo","bbox":[72,38,146,30]}
+{"kind":"notes","id":"nt/pfp3bh","slide":5,"text":"อธิบายว่าระบบทั้งค้นข้อมูลและใช้กฎธุรกิจ ยอดสุทธิ 920,467.50 บาทคำนวณจากราคา 18,500 บาท จำนวน 50 ตัว หักส่วนลด 7% แล้วบวก VAT 7%\nแหล่งข้อมูล: DEMO_SCRIPT.md และ src/data/demoData.ts"}
+{"kind":"slide","id":"sl/stvul1","slide":6,"title":"ใบเสนอราคาพร้อมให้พนักงานตรวจ","textShapes":15}
+{"kind":"textbox","id":"sh/ixwvqxkr","slide":6,"text":"ใบเสนอราคาพร้อมให้พนักงานตรวจ","textPreview":"ใบเสนอราคาพร้อมให้พนักงานตรวจ","textChars":29,"textLines":1,"bbox":[72,92,1136,70]}
+{"kind":"textbox","id":"sh/3y5wj2lc","slide":6,"text":"AI เตรียมฉบับร่าง ส่วนคนยังตัดสินใจก่อนส่งให้ลูกค้า","textPreview":"AI เตรียมฉบับร่าง ส่วนคนยังตัดสินใจก่อนส่งให้ลูกค้า","textChars":51,"textLines":1,"bbox":[72,158,950,46]}
+{"kind":"shape","id":"sh/gvedonm1","slide":6,"bbox":[72,214,720,410]}
+{"kind":"textbox","id":"sh/hwnehs3m","slide":6,"text":"ใบเสนอราคา","textPreview":"ใบเสนอราคา","textChars":10,"textLines":1,"bbox":[108,250,280,42]}
+{"kind":"textbox","id":"sh/utwvmx4v","slide":6,"text":"Eastern Industrial Supply Co., Ltd.","textPreview":"Eastern Industrial Supply Co., Ltd.","textChars":35,"textLines":1,"bbox":[108,294,360,28]}
+{"kind":"textbox","id":"sh/vu5wf2lg","slide":6,"text":"QT-2026-0914-001","textPreview":"QT-2026-0914-001","textChars":16,"textLines":1,"bbox":[560,252,195,26]}
+{"kind":"shape","id":"sh/0ryx0r25","slide":6,"bbox":[108,342,648,0]}
+{"kind":"textbox","id":"sh/1sretw3q","slide":6,"text":"Industrial Pump XP-200","textPreview":"Industrial Pump XP-200","textChars":22,"textLines":1,"bbox":[108,375,350,36]}
+{"kind":"textbox","id":"sh/hwzyh8v6","slide":6,"text":"50 ตัว","textPreview":"50 ตัว","textChars":6,"textLines":1,"bbox":[632,375,124,32]}
+{"kind":"textbox","id":"sh/wvqxo3ul","slide":6,"text":"ราคาก่อน VAT หลังหักส่วนลด","textPreview":"ราคาก่อน VAT หลังหักส่วนลด","textChars":26,"textLines":1,"bbox":[108,458,310,28]}
+{"kind":"textbox","id":"sh/vuhwfid0","slide":6,"text":"860,250.00 บาท","textPreview":"860,250.00 บาท","textChars":14,"textLines":1,"bbox":[520,454,236,32]}
+{"kind":"textbox","id":"sh/ut8fmdcf","slide":6,"text":"ยอดสุทธิรวม VAT","textPreview":"ยอดสุทธิรวม VAT","textChars":15,"textLines":1,"bbox":[108,522,260,32]}
+{"kind":"textbox","id":"sh/9sfed8vu","slide":6,"text":"920,467.50 บาท","textPreview":"920,467.50 บาท","textChars":14,"textLines":1,"bbox":[500,514,256,42]}
+{"kind":"shape","id":"sh/876xk3u9","slide":6,"bbox":[835,256,373,220]}
+{"kind":"textbox","id":"sh/76xwbydo","slide":6,"text":"พนักงานตรวจก่อนส่งจริง","textPreview":"พนักงานตรวจก่อนส่งจริง","textChars":22,"textLines":1,"bbox":[870,306,303,48]}
+{"kind":"textbox","id":"sh/m5ofitcj","slide":6,"text":"ตรวจยอด แก้ข้อความ แล้วจึงอนุมัติ","textPreview":"ตรวจยอด แก้ข้อความ แล้วจึงอนุมัติ","textChars":33,"textLines":1,"bbox":[875,378,293,54]}
+{"kind":"shape","id":"sh/dojypsvy","slide":6,"bbox":[875,510,293,66]}
+{"kind":"textbox","id":"sh/s3axgnut","slide":6,"text":"อนุมัติเอกสาร","textPreview":"อนุมัติเอกสาร","textChars":13,"textLines":1,"bbox":[905,528,233,32]}
+{"kind":"textbox","id":"sh/cj298v61","slide":6,"text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[1180,670,40,20]}
+{"kind":"image","id":"im/43mlsnyh","slide":6,"name":"","geometry":"rect","alt":"Gracer AI logo","bbox":[72,38,146,30]}
+{"kind":"notes","id":"nt/stvul1","slide":6,"text":"หยุดสั้น ๆ เมื่อใบเสนอราคาปรากฏ แล้วชี้ว่าระบบยังไม่ได้ส่งเอกสารเอง พนักงานตรวจยอด แก้ข้อความ และกดอนุมัติก่อนทุกครั้ง\nแหล่งข้อมูล: DEMO_SCRIPT.md"}
+{"kind":"slide","id":"sl/8b51b0","slide":7,"title":"เวลาที่เหลือสำหรับพนักงาน","textShapes":8}
+{"kind":"textbox","id":"sh/jm5wja50","slide":7,"text":"เวลาที่เหลือสำหรับพนักงาน","textPreview":"เวลาที่เหลือสำหรับพนักงาน","textChars":25,"textLines":1,"bbox":[72,92,1136,70]}
+{"kind":"textbox","id":"sh/ilwvq54v","slide":7,"text":"ระบบรับภาระการค้นและจัดทำฉบับร่าง พนักงานใช้เวลากับการตรวจสอบ","textPreview":"ระบบรับภาระการค้นและจัดทำฉบับร่าง พนักงานใช้เวลากับการตรวจสอบ","textChars":61,"textLines":1,"bbox":[72,158,950,46]}
+{"kind":"textbox","id":"sh/wjedofmp","slide":7,"text":"ก่อน","textPreview":"ก่อน","textChars":4,"textLines":1,"bbox":[72,246,170,34]}
+{"kind":"textbox","id":"sh/vi5cfa54","slide":7,"text":"เกือบ 1 วัน","textPreview":"เกือบ 1 วัน","textChars":11,"textLines":1,"bbox":[72,286,510,90]}
+{"kind":"shape","id":"sh/ahcvm54j","slide":7,"bbox":[72,410,520,0]}
+{"kind":"textbox","id":"sh/hg7et4ne","slide":7,"text":"หลัง","textPreview":"หลัง","textChars":4,"textLines":1,"bbox":[72,448,170,34]}
+{"kind":"textbox","id":"sh/gfyd0zmt","slide":7,"text":"ตรวจประมาณ 3 นาที","textPreview":"ตรวจประมาณ 3 นาที","textChars":17,"textLines":1,"bbox":[72,488,600,90]}
+{"kind":"textbox","id":"sh/yl0f6dk3","slide":7,"text":"ตัวเลขจากสถานการณ์ตัวอย่าง ผลจริงต้องวัดจาก workflow ของแต่ละบริษัท","textPreview":"ตัวเลขจากสถานการณ์ตัวอย่าง ผลจริงต้องวัดจาก workflow ของแต่ละบริษัท","textChars":67,"textLines":1,"bbox":[72,612,650,36]}
+{"kind":"textbox","id":"sh/zm9wfilo","slide":7,"text":"07","textPreview":"07","textChars":2,"textLines":1,"bbox":[1180,670,40,20]}
+{"kind":"image","id":"im/hcve9ovu","slide":7,"name":"","geometry":"rect","alt":"Gracer AI logo","bbox":[72,38,146,30]}
+{"kind":"image","id":"im/sn2dcjed","slide":7,"name":"","geometry":"roundRect","alt":"Team reviewing a completed business workflow","bbox":[744,204,464,362]}
+{"kind":"notes","id":"nt/8b51b0","slide":7,"text":"ย้ำว่านี่เป็นผลลัพธ์ตัวอย่างของเดโม สิ่งที่ทำกับลูกค้าจริงคือวัดเวลาเดิม ปริมาณงาน และคุณภาพก่อนเริ่ม Pilot แล้วเปรียบเทียบหลังทดลอง\nแหล่งข้อมูล: DEMO_SCRIPT.md และ SALES_PROPOSAL.md"}
+{"kind":"slide","id":"sl/9syrmt","slide":8,"title":"ข้อมูลบริษัทยังอยู่ภายใต้การควบคุม","textShapes":13}
+{"kind":"textbox","id":"sh/ritonelw","slide":8,"text":"ข้อมูลบริษัทยังอยู่ภายใต้การควบคุม","textPreview":"ข้อมูลบริษัทยังอยู่ภายใต้การควบคุม","textChars":34,"textLines":1,"bbox":[72,92,1136,70]}
+{"kind":"textbox","id":"sh/6hk7e9kr","slide":8,"text":"องค์กรกำหนดขอบเขต สิทธิ์เข้าถึง และรูปแบบการติดตั้งได้","textPreview":"องค์กรกำหนดขอบเขต สิทธิ์เข้าถึง และรูปแบบการติดตั้งได้","textChars":54,"textLines":1,"bbox":[72,158,950,46]}
+{"kind":"shape","id":"sh/4v2pcj2l","slide":8,"bbox":[700,233,36,36]}
+{"kind":"textbox","id":"sh/jutojel0","slide":8,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[700,239,36,20]}
+{"kind":"textbox","id":"sh/itk7a9kf","slide":8,"text":"ใช้เฉพาะข้อมูลที่จำเป็น","textPreview":"ใช้เฉพาะข้อมูลที่จำเป็น","textChars":23,"textLines":1,"bbox":[756,230,410,34]}
+{"kind":"textbox","id":"sh/psfqx83a","slide":8,"text":"เริ่มจากข้อมูลจำลองหรือข้อมูลที่ปกปิดส่วนสำคัญได้","textPreview":"เริ่มจากข้อมูลจำลองหรือข้อมูลที่ปกปิดส่วนสำคัญได้","textChars":49,"textLines":1,"bbox":[756,272,410,54]}
+{"kind":"shape","id":"sh/or6po32p","slide":8,"bbox":[700,351,36,36]}
+{"kind":"textbox","id":"sh/698fax87","slide":8,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[700,357,36,20]}
+{"kind":"textbox","id":"sh/7ahg329s","slide":8,"text":"กำหนดสิทธิ์และตรวจสอบที่มา","textPreview":"กำหนดสิทธิ์และตรวจสอบที่มา","textChars":26,"textLines":1,"bbox":[756,348,410,34]}
+{"kind":"textbox","id":"sh/8baxc7qd","slide":8,"text":"แยกข้อมูลตามบทบาทและบันทึกแหล่งที่ระบบใช้","textPreview":"แยกข้อมูลตามบทบาทและบันทึกแหล่งที่ระบบใช้","textChars":41,"textLines":1,"bbox":[756,390,410,54]}
+{"kind":"shape","id":"sh/tcjy5cry","slide":8,"bbox":[700,469,36,36]}
+{"kind":"textbox","id":"sh/yl8f6x8b","slide":8,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[700,475,36,20]}
+{"kind":"textbox","id":"sh/jmhwzi9w","slide":8,"text":"เลือกรูปแบบให้เหมาะกับความลับ","textPreview":"เลือกรูปแบบให้เหมาะกับความลับ","textChars":29,"textLines":1,"bbox":[756,466,410,34]}
+{"kind":"textbox","id":"sh/k7qx8nqh","slide":8,"text":"พิจารณา private, local หรือ hybrid ตามนโยบายองค์กร","textPreview":"พิจารณา private, local หรือ hybrid ตามนโยบายองค์กร","textChars":50,"textLines":1,"bbox":[756,508,410,54]}
+{"kind":"textbox","id":"sh/l8zy1srm","slide":8,"text":"ไม่มีระบบใดปราศจากความเสี่ยง เป้าหมายคือทำให้องค์กรกำหนดขอบเขตและตรวจสอบได้","textPreview":"ไม่มีระบบใดปราศจากความเสี่ยง เป้าหมายคือทำให้องค์กรกำหนดขอบเขตและตรวจสอบได้","textChars":75,"textLines":1,"bbox":[700,602,485,44]}
+{"kind":"textbox","id":"sh/ihsfih8f","slide":8,"text":"08","textPreview":"08","textChars":2,"textLines":1,"bbox":[1180,670,40,20]}
+{"kind":"image","id":"im/lcfilgzm","slide":8,"name":"","geometry":"rect","alt":"Gracer AI logo","bbox":[72,38,146,30]}
+{"kind":"image","id":"im/8f61gvyx","slide":8,"name":"","geometry":"roundRect","alt":"Private AI control environment","bbox":[72,216,570,382]}
+{"kind":"notes","id":"nt/9syrmt","slide":8,"text":"อธิบาย privacy ในภาษาธุรกิจ หลีกเลี่ยงรายละเอียดโครงสร้างพื้นฐานในช่วงเดโมหลัก และไม่รับรองว่าไม่มีความเสี่ยงเลย\nแหล่งข้อมูล: PROJECT_CONTEXT.md และ SALES_PROPOSAL.md"}
+{"kind":"slide","id":"sl/j59p6f","slide":9,"title":"เริ่มจากหนึ่ง workflow ที่วัดผลได้","textShapes":11}
+{"kind":"shape","id":"sh/itwzihsf","slide":9,"bbox":[67,33,156,40]}
+{"kind":"textbox","id":"sh/4fehkral","slide":9,"text":"เริ่มจากหนึ่ง workflow ที่วัดผลได้","textPreview":"เริ่มจากหนึ่ง workflow ที่วัดผลได้","textChars":34,"textLines":1,"bbox":[72,112,860,70]}
+{"kind":"textbox","id":"sh/vq5gn294","slide":9,"text":"AI Workflow Pilot","textPreview":"AI Workflow Pilot","textChars":17,"textLines":1,"bbox":[72,220,450,42]}
+{"kind":"textbox","id":"sh/upwzehsj","slide":9,"text":"49,000","textPreview":"49,000","textChars":6,"textLines":1,"bbox":[72,266,420,106]}
+{"kind":"textbox","id":"sh/hsnypcra","slide":9,"text":"บาท","textPreview":"บาท","textChars":3,"textLines":1,"bbox":[430,322,100,40]}
+{"kind":"textbox","id":"sh/wrehg7ap","slide":9,"text":"ระยะเวลา 2–3 สัปดาห์","textPreview":"ระยะเวลา 2–3 สัปดาห์","textChars":20,"textLines":1,"bbox":[76,392,430,40]}
+{"kind":"textbox","id":"sh/7mlgj29s","slide":9,"text":"วิเคราะห์งานจริงหนึ่งงาน\nสร้างต้นแบบตั้งแต่รับข้อมูลจนพร้อมอนุมัติ\nวัดผลก่อนและหลัง พร้อมแผนนำไปใช้จริง","textPreview":"วิเคราะห์งานจริงหนึ่งงาน | สร้างต้นแบบตั้งแต่รับข้อมูลจนพร้อมอนุมัติ | วัดผลก่อนและหลัง พร้อมแผนนำไปใช้จริง","textChars":103,"textLines":3,"bbox":[76,454,540,120]}
+{"kind":"shape","id":"sh/mlcfaxsn","slide":9,"bbox":[700,174,508,380]}
+{"kind":"textbox","id":"sh/0f2dsbmt","slide":9,"text":"งานใดในบริษัทของคุณ\nที่ทีมต้องทำซ้ำทุกวัน?","textPreview":"งานใดในบริษัทของคุณ | ที่ทีมต้องทำซ้ำทุกวัน?","textChars":42,"textLines":2,"bbox":[748,222,412,116]}
+{"kind":"textbox","id":"sh/10bulgny","slide":9,"text":"นัด Workflow Assessment 30 นาที","textPreview":"นัด Workflow Assessment 30 นาที","textChars":31,"textLines":1,"bbox":[748,382,412,44]}
+{"kind":"shape","id":"sh/ed0bq14n","slide":9,"bbox":[790,452,328,62]}
+{"kind":"textbox","id":"sh/ze9cj658","slide":9,"text":"apinan@gracer.co.th","textPreview":"apinan@gracer.co.th","textChars":19,"textLines":1,"bbox":[815,469,278,30]}
+{"kind":"textbox","id":"sh/cbitormh","slide":9,"text":"เริ่มเล็ก วัดผลจริง แล้วค่อยขยาย","textPreview":"เริ่มเล็ก วัดผลจริง แล้วค่อยขยาย","textChars":32,"textLines":1,"bbox":[700,590,508,38]}
+{"kind":"textbox","id":"sh/dcruhwn2","slide":9,"text":"09","textPreview":"09","textChars":2,"textLines":1,"bbox":[1180,670,40,20]}
+{"kind":"image","id":"im/sb6d0v2t","slide":9,"name":"","geometry":"rect","alt":"Gracer AI logo","bbox":[72,38,146,30]}
+{"kind":"notes","id":"nt/j59p6f","slide":9,"text":"ปิดด้วยคำถามเรื่องงานที่เกิดซ้ำ เสนอ Workflow Assessment 30 นาที แล้วอธิบายว่า Pilot ราคา 49,000 บาทครอบคลุมหนึ่ง workflow ระยะเวลา 2–3 สัปดาห์\nแหล่งข้อมูล: EXECUTION_PLAN.md, DEMO_SCRIPT.md และ SALES_PROPOSAL.md"}

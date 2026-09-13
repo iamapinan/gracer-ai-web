@@ -1,0 +1,256 @@
+{"kind":"deck","id":"pr/9q04xh","name":"Deck"}
+{"kind":"layout","layoutId":"ae4b65c6-6cf2-4afc-b515-812841ce5ad0","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"55724270-c9a1-4577-add1-7bf829100689","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/vmvi0p","slide":1,"title":"GRACER AI","textShapes":6}
+{"kind":"shape","id":"sh/x8jalkn2","slide":1,"bbox":[0,0,625,720]}
+{"kind":"shape","id":"sh/wna9cf6h","slide":1,"bbox":[56,42,186,48]}
+{"kind":"textbox","id":"sh/i9srepon","slide":1,"text":"GRACER AI","textPreview":"GRACER AI","textChars":9,"textLines":1,"bbox":[72,142,500,54]}
+{"kind":"textbox","id":"sh/5cjap4ny","slide":1,"text":"AI ที่ทำงานได้จริง","textPreview":"AI ที่ทำงานได้จริง","textChars":18,"textLines":1,"bbox":[72,212,520,92]}
+{"kind":"textbox","id":"sh/kba9gz6t","slide":1,"text":"สำหรับธุรกิจของคุณ","textPreview":"สำหรับธุรกิจของคุณ","textChars":18,"textLines":1,"bbox":[72,310,520,92]}
+{"kind":"textbox","id":"sh/zeh8bq5o","slide":1,"text":"ระบบที่สร้างผลลัพธ์\nการควบคุมที่เหมาะสม\nทีมที่พร้อมใช้งาน","textPreview":"ระบบที่สร้างผลลัพธ์ | การควบคุมที่เหมาะสม | ทีมที่พร้อมใช้งาน","textChars":57,"textLines":3,"bbox":[76,430,380,120]}
+{"kind":"shape","id":"sh/ydor2lo3","slide":1,"bbox":[72,592,390,54]}
+{"kind":"textbox","id":"sh/wvqp4b25","slide":1,"text":"SME CONNECT RAYONG 2026","textPreview":"SME CONNECT RAYONG 2026","textChars":23,"textLines":1,"bbox":[94,608,346,26]}
+{"kind":"textbox","id":"sh/hwz6dgjq","slide":1,"text":"14 กันยายน 2026","textPreview":"14 กันยายน 2026","textChars":15,"textLines":1,"bbox":[488,608,180,26]}
+{"kind":"image","id":"im/nmp0r6l4","slide":1,"name":"","geometry":"rect","alt":"Gracer AI abstract visual","bbox":[548,0,732,720]}
+{"kind":"image","id":"im/a9gjm14v","slide":1,"name":"","geometry":"rect","alt":"Gracer AI logo","bbox":[72,52,154,29]}
+{"kind":"notes","id":"nt/vmvi0p","slide":1,"text":"เปิดด้วยภาพรวมว่า Gracer AI ช่วยองค์กรตั้งแต่การนำ AI ไปใช้จริง การกำกับดูแล ไปจนถึงการสร้างความพร้อมของทีม\nแหล่งข้อมูล: PROJECT_CONTEXT.md และ src/translations/th.ts"}
+{"kind":"slide","id":"sl/mybabo","slide":2,"title":"Gracer AI ในภาพเดียว","textShapes":14}
+{"kind":"textbox","id":"sh/1grud4na","slide":2,"text":"Gracer AI ในภาพเดียว","textPreview":"Gracer AI ในภาพเดียว","textChars":20,"textLines":1,"bbox":[72,94,1136,68]}
+{"kind":"textbox","id":"sh/0fitkzmp","slide":2,"text":"AI Partner ที่เชื่อมข้อมูล ระบบ และคน ให้กลายเป็นการทำงานที่วัดผลได้","textPreview":"AI Partner ที่เชื่อมข้อมูล ระบบ และคน ให้กลายเป็นการทำงานที่วัดผลได้","textChars":68,"textLines":1,"bbox":[72,160,1060,42]}
+{"kind":"textbox","id":"sh/q9gbepon","slide":2,"text":"Gracer AI Platform","textPreview":"Gracer AI Platform","textChars":18,"textLines":1,"bbox":[688,236,450,40]}
+{"kind":"textbox","id":"sh/dcru9kny","slide":2,"text":"รากฐานสำหรับ AI Assistant แอปพลิเคชันองค์กร และโมเดลที่ใช้งานได้ทั้ง local หรือ hybrid","textPreview":"รากฐานสำหรับ AI Assistant แอปพลิเคชันองค์กร และโมเดลที่ใช้งานได้ทั้ง local หรือ hybrid","textChars":86,"textLines":1,"bbox":[688,284,480,88]}
+{"kind":"shape","id":"sh/cbitgfmt","slide":2,"bbox":[688,405,30,30]}
+{"kind":"textbox","id":"sh/3mps3a5w","slide":2,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[688,410,30,18]}
+{"kind":"textbox","id":"sh/ilgba5ob","slide":2,"text":"นำไปใช้กับงานจริง","textPreview":"นำไปใช้กับงานจริง","textChars":17,"textLines":1,"bbox":[736,404,260,30]}
+{"kind":"textbox","id":"sh/c7yp87eh","slide":2,"text":"เชื่อม AI เข้ากับข้อมูลและระบบที่องค์กรมีอยู่","textPreview":"เชื่อม AI เข้ากับข้อมูลและระบบที่องค์กรมีอยู่","textChars":45,"textLines":1,"bbox":[736,434,445,34]}
+{"kind":"shape","id":"sh/d876hcf2","slide":2,"bbox":[688,479,30,30]}
+{"kind":"textbox","id":"sh/q5w76xwr","slide":2,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[688,484,30,18]}
+{"kind":"textbox","id":"sh/b6pof2xc","slide":2,"text":"ควบคุมได้","textPreview":"ควบคุมได้","textChars":9,"textLines":1,"bbox":[736,478,260,30]}
+{"kind":"textbox","id":"sh/ojep4nel","slide":2,"text":"กำหนดสิทธิ์ นโยบาย และจุดอนุมัติตามความเสี่ยง","textPreview":"กำหนดสิทธิ์ นโยบาย และจุดอนุมัติตามความเสี่ยง","textChars":45,"textLines":1,"bbox":[736,508,445,34]}
+{"kind":"shape","id":"sh/p4n6dsf6","slide":2,"bbox":[688,553,30,30]}
+{"kind":"textbox","id":"sh/2hwn2dwf","slide":2,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[688,558,30,18]}
+{"kind":"textbox","id":"sh/3i5obix0","slide":2,"text":"ทีมใช้งานต่อได้","textPreview":"ทีมใช้งานต่อได้","textChars":15,"textLines":1,"bbox":[736,552,260,30]}
+{"kind":"textbox","id":"sh/8fipgrep","slide":2,"text":"พัฒนาทักษะและวิธีทำงานให้เกิดผลต่อเนื่อง","textPreview":"พัฒนาทักษะและวิธีทำงานให้เกิดผลต่อเนื่อง","textChars":40,"textLines":1,"bbox":[736,582,445,34]}
+{"kind":"textbox","id":"sh/90r6pwfa","slide":2,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[1178,670,42,20]}
+{"kind":"image","id":"im/n2pwnqto","slide":2,"name":"","geometry":"rect","alt":"Gracer AI logo","bbox":[72,38,146,30]}
+{"kind":"image","id":"im/a5gfylcf","slide":2,"name":"","geometry":"roundRect","alt":"Gracer Intelligence Platform screenshot","bbox":[72,238,540,330]}
+{"kind":"notes","id":"nt/mybabo","slide":2,"text":"อธิบายว่า Gracer AI ไม่ได้มีเพียงผลิตภัณฑ์เดียว แต่มีทั้งแพลตฟอร์ม บริการ ระบบควบคุม และการพัฒนาคนที่ทำงานร่วมกัน\nแหล่งข้อมูล: src/components/LandingPage.tsx และ src/data/productDetails.ts"}
+{"kind":"slide","id":"sl/pkixv4","slide":3,"title":"3 เสาหลักของ Gracer AI","textShapes":13}
+{"kind":"textbox","id":"sh/7etwf25g","slide":3,"text":"3 เสาหลักของ Gracer AI","textPreview":"3 เสาหลักของ Gracer AI","textChars":22,"textLines":1,"bbox":[72,94,1136,68]}
+{"kind":"textbox","id":"sh/mtkvmx4v","slide":3,"text":"แต่ละ Pillar แก้ปัญหาคนละส่วน แต่ทำงานร่วมกันในภาพเดียว","textPreview":"แต่ละ Pillar แก้ปัญหาคนละส่วน แต่ทำงานร่วมกันในภาพเดียว","textChars":55,"textLines":1,"bbox":[72,160,1060,42]}
+{"kind":"shape","id":"sh/lsbedsna","slide":3,"bbox":[72,238,344,340]}
+{"kind":"shape","id":"sh/kr2dknmp","slide":3,"bbox":[72,238,344,8]}
+{"kind":"textbox","id":"sh/zq9wbi54","slide":3,"text":"01 / 03","textPreview":"01 / 03","textChars":7,"textLines":1,"bbox":[100,278,120,26]}
+{"kind":"textbox","id":"sh/yp0vid4j","slide":3,"text":"AI Transformation","textPreview":"AI Transformation","textChars":17,"textLines":1,"bbox":[100,328,288,68]}
+{"kind":"shape","id":"sh/xore9sny","slide":3,"bbox":[100,412,288,0]}
+{"kind":"textbox","id":"sh/cnidgnmt","slide":3,"text":"เปลี่ยนระบบงานเดิม โดยใช้ AI เข้ามาช่วยสร้างผลลัพธ์ทางธุรกิจ","textPreview":"เปลี่ยนระบบงานเดิม โดยใช้ AI เข้ามาช่วยสร้างผลลัพธ์ทางธุรกิจ","textChars":60,"textLines":1,"bbox":[100,444,288,105]}
+{"kind":"shape","id":"sh/y987ep4b","slide":3,"bbox":[448,238,344,340]}
+{"kind":"shape","id":"sh/jah8nu5w","slide":3,"bbox":[448,238,344,8]}
+{"kind":"textbox","id":"sh/kbqpgfmh","slide":3,"text":"02 / 03","textPreview":"02 / 03","textChars":7,"textLines":1,"bbox":[476,278,120,26]}
+{"kind":"textbox","id":"sh/lczqpkn2","slide":3,"text":"AI Governance","textPreview":"AI Governance","textChars":13,"textLines":1,"bbox":[476,328,288,68]}
+{"kind":"shape","id":"sh/a5o7a54f","slide":3,"bbox":[476,412,288,0]}
+{"kind":"textbox","id":"sh/b6x8ja50","slide":3,"text":"ควบคุมการใช้ AI ด้วยนโยบาย สิทธิ์ ขอบเขตข้อมูล และหลักฐานที่ตรวจสอบได้","textPreview":"ควบคุมการใช้ AI ด้วยนโยบาย สิทธิ์ ขอบเขตข้อมูล และหลักฐานที่ตรวจสอบได้","textChars":70,"textLines":1,"bbox":[476,444,288,105]}
+{"kind":"shape","id":"sh/w76pcfm5","slide":3,"bbox":[824,238,344,340]}
+{"kind":"shape","id":"sh/x8fqlknq","slide":3,"bbox":[824,238,344,8]}
+{"kind":"textbox","id":"sh/mh476543","slide":3,"text":"03 / 03","textPreview":"03 / 03","textChars":7,"textLines":1,"bbox":[852,278,120,26]}
+{"kind":"textbox","id":"sh/nix8fa5o","slide":3,"text":"AI Training","textPreview":"AI Training","textChars":11,"textLines":1,"bbox":[852,328,288,68]}
+{"kind":"shape","id":"sh/rmt4n6lg","slide":3,"bbox":[852,412,288,0]}
+{"kind":"textbox","id":"sh/qlkne1kv","slide":3,"text":"พัฒนาคนให้เลือกใช้ AI ได้เหมาะกับงาน และต่อยอดเป็นวิธีทำงานขององค์กร","textPreview":"พัฒนาคนให้เลือกใช้ AI ได้เหมาะกับงาน และต่อยอดเป็นวิธีทำงานขององค์กร","textChars":68,"textLines":1,"bbox":[852,444,288,105]}
+{"kind":"shape","id":"sh/dobmpw3m","slide":3,"bbox":[72,610,1096,42]}
+{"kind":"textbox","id":"sh/cn25gb21","slide":3,"text":"Gracer AI LLM และ Platform เป็นรากฐานที่รองรับโซลูชันในทุก Pillar","textPreview":"Gracer AI LLM และ Platform เป็นรากฐานที่รองรับโซลูชันในทุก Pillar","textChars":65,"textLines":1,"bbox":[92,620,1056,24]}
+{"kind":"textbox","id":"sh/zqd4r6ls","slide":3,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[1178,670,42,20]}
+{"kind":"image","id":"im/p4r61gn6","slide":3,"name":"","geometry":"rect","alt":"Gracer AI logo","bbox":[72,38,146,30]}
+{"kind":"notes","id":"nt/pkixv4","slide":3,"text":"ใช้หน้านี้เป็นแผนที่ของเรื่องที่จะเล่าต่อ จากนั้นเจาะ AI Transformation ซึ่งเป็นจุดเริ่มต้นที่ลูกค้าเห็นผลลัพธ์ได้เร็วที่สุด\nแหล่งข้อมูล: src/translations/th.ts และ src/components/LandingPage.tsx"}
+{"kind":"slide","id":"sl/1fmymx","slide":4,"title":"AI Transformation","textShapes":16}
+{"kind":"textbox","id":"sh/t0zedkfe","slide":4,"text":"AI Transformation","textPreview":"AI Transformation","textChars":17,"textLines":1,"bbox":[72,94,1136,68]}
+{"kind":"textbox","id":"sh/szqd4fet","slide":4,"text":"เปลี่ยนงานที่กระจัดกระจายให้เป็นระบบที่ AI และคนทำงานร่วมกันได้จริง","textPreview":"เปลี่ยนงานที่กระจัดกระจายให้เป็นระบบที่ AI และคนทำงานร่วมกันได้จริง","textChars":67,"textLines":1,"bbox":[72,160,1060,42]}
+{"kind":"textbox","id":"sh/e18v6pwz","slide":4,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[72,224,42,28]}
+{"kind":"textbox","id":"sh/1ozehkfq","slide":4,"text":"เลือกงานที่คุ้มค่า","textPreview":"เลือกงานที่คุ้มค่า","textChars":18,"textLines":1,"bbox":[132,222,300,32]}
+{"kind":"textbox","id":"sh/gnqd8ze5","slide":4,"text":"เริ่มจากงานที่เกิดซ้ำ ใช้เวลามาก และวัดผลก่อนกับหลังได้","textPreview":"เริ่มจากงานที่เกิดซ้ำ ใช้เวลามาก และวัดผลก่อนกับหลังได้","textChars":55,"textLines":1,"bbox":[132,258,430,46]}
+{"kind":"shape","id":"sh/v6dc3qxg","slide":4,"bbox":[72,304,500,0]}
+{"kind":"textbox","id":"sh/a54vulgv","slide":4,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[72,318,42,28]}
+{"kind":"textbox","id":"sh/8jehwr65","slide":4,"text":"เชื่อมข้อมูลและระบบเดิม","textPreview":"เชื่อมข้อมูลและระบบเดิม","textChars":23,"textLines":1,"bbox":[132,316,300,32]}
+{"kind":"textbox","id":"sh/9knipw7q","slide":4,"text":"เว็บไซต์ แอป LINE เอกสาร CRM, ERP และฐานข้อมูล","textPreview":"เว็บไซต์ แอป LINE เอกสาร CRM, ERP และฐานข้อมูล","textChars":46,"textLines":1,"bbox":[132,352,430,46]}
+{"kind":"shape","id":"sh/mhwzuhof","slide":4,"bbox":[72,398,500,0]}
+{"kind":"textbox","id":"sh/7i50nmp0","slide":4,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[72,412,42,28]}
+{"kind":"textbox","id":"sh/wnyh0r6h","slide":4,"text":"วางจุดตัดสินใจของคน","textPreview":"วางจุดตัดสินใจของคน","textChars":19,"textLines":1,"bbox":[132,410,300,32]}
+{"kind":"textbox","id":"sh/ho7itw72","slide":4,"text":"ผลลัพธ์สำคัญต้องผ่านการตรวจและอนุมัติก่อนนำไปใช้","textPreview":"ผลลัพธ์สำคัญต้องผ่านการตรวจและอนุมัติก่อนนำไปใช้","textChars":48,"textLines":1,"bbox":[132,446,430,46]}
+{"kind":"shape","id":"sh/ulwzy1ob","slide":4,"bbox":[72,492,500,0]}
+{"kind":"textbox","id":"sh/vm50r6pw","slide":4,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[72,506,42,28]}
+{"kind":"textbox","id":"sh/cruho76d","slide":4,"text":"นำขึ้นใช้งานและปรับต่อ","textPreview":"นำขึ้นใช้งานและปรับต่อ","textChars":22,"textLines":1,"bbox":[132,504,300,32]}
+{"kind":"textbox","id":"sh/ds3ihc7i","slide":4,"text":"ทดสอบคุณภาพ ความเร็ว ต้นทุน และ fallback ก่อนขยาย","textPreview":"ทดสอบคุณภาพ ความเร็ว ต้นทุน และ fallback ก่อนขยาย","textChars":49,"textLines":1,"bbox":[132,540,430,46]}
+{"kind":"shape","id":"sh/tcb654va","slide":4,"bbox":[650,610,558,42]}
+{"kind":"textbox","id":"sh/sb2pwzup","slide":4,"text":"AI Integration และ AI Workflow Consulting เป็นจุดเริ่มต้นหลัก","textPreview":"AI Integration และ AI Workflow Consulting เป็นจุดเริ่มต้นหลัก","textChars":61,"textLines":1,"bbox":[670,620,518,24]}
+{"kind":"textbox","id":"sh/rato3ud4","slide":4,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[1178,670,42,20]}
+{"kind":"image","id":"im/vi1g769w","slide":4,"name":"","geometry":"rect","alt":"Gracer AI logo","bbox":[72,38,146,30]}
+{"kind":"image","id":"im/md8fahsf","slide":4,"name":"","geometry":"roundRect","alt":"AI Transformation connecting business workflows","bbox":[650,216,558,372]}
+{"kind":"notes","id":"nt/1fmymx","slide":4,"text":"เจาะลึกเฉพาะ Pillar นี้ โดยย้ำว่าเริ่มจากปัญหาธุรกิจ วัด baseline และออกแบบ human approval ก่อนนำขึ้นใช้งานจริง\nแหล่งข้อมูล: src/data/productDetails.ts: AI Integration และ AI Workflow Consulting"}
+{"kind":"slide","id":"sl/rbygu1","slide":5,"title":"โซลูชัน AI Transformation","textShapes":25}
+{"kind":"textbox","id":"sh/vi5kr29o","slide":5,"text":"โซลูชัน AI Transformation","textPreview":"โซลูชัน AI Transformation","textChars":25,"textLines":1,"bbox":[72,94,1136,68]}
+{"kind":"textbox","id":"sh/uhw3ixs3","slide":5,"text":"เลือกใช้ผลิตภัณฑ์ที่พร้อมเริ่มได้ทันที หรือติดต่อเพื่อออกแบบให้ตรงกับระบบงานขององค์กร","textPreview":"เลือกใช้ผลิตภัณฑ์ที่พร้อมเริ่มได้ทันที หรือติดต่อเพื่อออกแบบให้ตรงกับระบบงานขององค์กร","textChars":85,"textLines":1,"bbox":[72,160,1060,42]}
+{"kind":"textbox","id":"sh/tgn2psri","slide":5,"text":"พร้อมใช้ได้ทันที","textPreview":"พร้อมใช้ได้ทันที","textChars":16,"textLines":1,"bbox":[72,228,430,36]}
+{"kind":"shape","id":"sh/8felgnax","slide":5,"bbox":[72,278,430,88]}
+{"kind":"textbox","id":"sh/6tw3exs7","slide":5,"text":"Bull Docs","textPreview":"Bull Docs","textChars":9,"textLines":1,"bbox":[164,292,300,30]}
+{"kind":"textbox","id":"sh/lsn2lsrm","slide":5,"text":"เอกสารบัญชีธุรกิจไทย","textPreview":"เอกสารบัญชีธุรกิจไทย","textChars":20,"textLines":1,"bbox":[164,327,300,24]}
+{"kind":"shape","id":"sh/kru1cna1","slide":5,"bbox":[72,383,430,88]}
+{"kind":"textbox","id":"sh/r6x8v2pc","slide":5,"text":"Gvents","textPreview":"Gvents","textChars":6,"textLines":1,"bbox":[164,397,300,30]}
+{"kind":"textbox","id":"sh/c769476x","slide":5,"text":"แพลตฟอร์มจัดการอีเวนต์","textPreview":"แพลตฟอร์มจัดการอีเวนต์","textChars":22,"textLines":1,"bbox":[164,432,300,24]}
+{"kind":"shape","id":"sh/d8fqxc72","slide":5,"bbox":[72,488,430,88]}
+{"kind":"textbox","id":"sh/3id8rip0","slide":5,"text":"HomePlace","textPreview":"HomePlace","textChars":9,"textLines":1,"bbox":[164,502,300,30]}
+{"kind":"textbox","id":"sh/4jmp0n6l","slide":5,"text":"ตลาดชุมชนผ่าน LINE","textPreview":"ตลาดชุมชนผ่าน LINE","textChars":18,"textLines":1,"bbox":[164,537,300,24]}
+{"kind":"shape","id":"sh/p4fqts76","slide":5,"bbox":[72,596,430,44]}
+{"kind":"textbox","id":"sh/ud47udoj","slide":5,"text":"เริ่มต้นใช้งานจากผลิตภัณฑ์ที่มีอยู่ได้","textPreview":"เริ่มต้นใช้งานจากผลิตภัณฑ์ที่มีอยู่ได้","textChars":38,"textLines":1,"bbox":[92,607,390,24]}
+{"kind":"textbox","id":"sh/fed8nip4","slide":5,"text":"ติดต่อเพื่อออกแบบก่อน","textPreview":"ติดต่อเพื่อออกแบบก่อน","textChars":21,"textLines":1,"bbox":[550,228,618,36]}
+{"kind":"shape","id":"sh/ji94ve5w","slide":5,"bbox":[550,278,298,88]}
+{"kind":"textbox","id":"sh/5kr6xon2","slide":5,"text":"AI Integration","textPreview":"AI Integration","textChars":14,"textLines":1,"bbox":[628,290,198,34]}
+{"kind":"textbox","id":"sh/kji54jmh","slide":5,"text":"เชื่อม AI กับระบบเดิม","textPreview":"เชื่อม AI กับระบบเดิม","textChars":21,"textLines":1,"bbox":[628,328,198,24]}
+{"kind":"shape","id":"sh/7mtozy5s","slide":5,"bbox":[868,278,298,88]}
+{"kind":"textbox","id":"sh/tob61ony","slide":5,"text":"AI Workflow Consulting","textPreview":"AI Workflow Consulting","textChars":22,"textLines":1,"bbox":[946,290,198,34]}
+{"kind":"textbox","id":"sh/sn258jmd","slide":5,"text":"ออกแบบ workflow ที่วัดผลได้","textPreview":"ออกแบบ workflow ที่วัดผลได้","textChars":27,"textLines":1,"bbox":[946,328,198,24]}
+{"kind":"shape","id":"sh/nqp4nu5o","slide":5,"bbox":[550,383,298,88]}
+{"kind":"textbox","id":"sh/sjut8ryp","slide":5,"text":"AI ERP","textPreview":"AI ERP","textChars":6,"textLines":1,"bbox":[628,395,198,34]}
+{"kind":"textbox","id":"sh/dk3uhwza","slide":5,"text":"ระบบหลังบ้านธุรกิจ","textPreview":"ระบบหลังบ้านธุรกิจ","textChars":18,"textLines":1,"bbox":[628,433,198,24]}
+{"kind":"shape","id":"sh/qhcb61gj","slide":5,"bbox":[868,383,298,88]}
+{"kind":"textbox","id":"sh/4fat4ryt","slide":5,"text":"beOK BOQ","textPreview":"beOK BOQ","textChars":8,"textLines":1,"bbox":[946,395,198,34]}
+{"kind":"textbox","id":"sh/5gjadwzy","slide":5,"text":"ถอดแบบและประมาณราคา","textPreview":"ถอดแบบและประมาณราคา","textChars":19,"textLines":1,"bbox":[946,433,198,24]}
+{"kind":"shape","id":"sh/itsb2hgn","slide":5,"bbox":[550,488,298,88]}
+{"kind":"textbox","id":"sh/obetgbyx","slide":5,"text":"Food Cost & Profit DNA","textPreview":"Food Cost & Profit DNA","textChars":22,"textLines":1,"bbox":[628,500,198,34]}
+{"kind":"textbox","id":"sh/pcnupgzi","slide":5,"text":"วิเคราะห์กำไรเมนูอาหาร","textPreview":"วิเคราะห์กำไรเมนูอาหาร","textChars":22,"textLines":1,"bbox":[628,538,198,24]}
+{"kind":"shape","id":"sh/lwfqh8fu","slide":5,"bbox":[868,488,298,88]}
+{"kind":"textbox","id":"sh/kv6p83e9","slide":5,"text":"ปรึกษาก่อนเริ่ม","textPreview":"ปรึกษาก่อนเริ่ม","textChars":15,"textLines":1,"bbox":[890,505,254,28]}
+{"kind":"textbox","id":"sh/jux8fixo","slide":5,"text":"เพื่อกำหนดข้อมูล ระบบ และขอบเขต","textPreview":"เพื่อกำหนดข้อมูล ระบบ และขอบเขต","textChars":31,"textLines":1,"bbox":[890,539,254,24]}
+{"kind":"textbox","id":"sh/yto76dw3","slide":5,"text":"สถานะความพร้อมอ้างอิงจากรูปแบบการให้บริการปัจจุบัน","textPreview":"สถานะความพร้อมอ้างอิงจากรูปแบบการให้บริการปัจจุบัน","textChars":50,"textLines":1,"bbox":[550,615,618,24]}
+{"kind":"textbox","id":"sh/tkzqlsfq","slide":5,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1178,670,42,20]}
+{"kind":"image","id":"im/psbyt472","slide":5,"name":"","geometry":"rect","alt":"Gracer AI logo","bbox":[72,38,146,30]}
+{"kind":"image","id":"im/qtkzm98n","slide":5,"name":"","geometry":"rect","alt":"Bull Docs visual","bbox":[92,295,54,54]}
+{"kind":"image","id":"im/xcnq9wru","slide":5,"name":"","geometry":"rect","alt":"Gvents visual","bbox":[92,400,54,54]}
+{"kind":"image","id":"im/lg7qdwr6","slide":5,"name":"","geometry":"rect","alt":"HomePlace visual","bbox":[92,505,54,54]}
+{"kind":"image","id":"im/t47qhcji","slide":5,"name":"","geometry":"rect","alt":"AI Integration visual","bbox":[566,298,48,48]}
+{"kind":"image","id":"im/hsrqlcju","slide":5,"name":"","geometry":"rect","alt":"AI Workflow Consulting visual","bbox":[884,298,48,48]}
+{"kind":"image","id":"im/pwrqpwzq","slide":5,"name":"","geometry":"rect","alt":"AI ERP visual","bbox":[566,403,48,48]}
+{"kind":"image","id":"im/k3ml4f6p","slide":5,"name":"","geometry":"rect","alt":"beOK BOQ visual","bbox":[884,403,48,48]}
+{"kind":"image","id":"im/czm10f6t","slide":5,"name":"","geometry":"rect","alt":"Food Cost & Profit DNA visual","bbox":[566,508,48,48]}
+{"kind":"notes","id":"nt/rbygu1","slide":5,"text":"แยกให้ผู้ชมเห็นทันทีว่า Bull Docs, Gvents และ HomePlace พร้อมเริ่มใช้งาน ส่วนโซลูชันอื่นต้องพูดคุยเพื่อออกแบบให้ตรงกับระบบงานและข้อมูลขององค์กร\nแหล่งข้อมูล: ข้อมูลความพร้อมจากคำยืนยันของเจ้าของโครงการ และ src/data/productDetails.ts"}
+{"kind":"slide","id":"sl/fab0az","slide":6,"title":"ตัวอย่าง AI Workflow สำหรับงานเสนอราคา","textShapes":17}
+{"kind":"shape","id":"sh/6lw7mdgv","slide":6,"bbox":[67,33,156,40]}
+{"kind":"textbox","id":"sh/s7ypony1","slide":6,"text":"ตัวอย่าง AI Workflow สำหรับงานเสนอราคา","textPreview":"ตัวอย่าง AI Workflow สำหรับงานเสนอราคา","textChars":38,"textLines":1,"bbox":[72,94,1136,68]}
+{"kind":"textbox","id":"sh/ji5obyhk","slide":6,"text":"จากข้อความลูกค้าหนึ่งบรรทัด ถึงเอกสารฉบับร่างที่พร้อมตรวจ","textPreview":"จากข้อความลูกค้าหนึ่งบรรทัด ถึงเอกสารฉบับร่างที่พร้อมตรวจ","textChars":57,"textLines":1,"bbox":[72,160,1060,42]}
+{"kind":"shape","id":"sh/ihw7itgz","slide":6,"bbox":[72,232,1136,90]}
+{"kind":"textbox","id":"sh/5knqd8za","slide":6,"text":"“ขอราคา Pump รุ่น XP-200 จำนวน 50 ตัว ส่งระยอง ขอภายในวันนี้”","textPreview":"“ขอราคา Pump รุ่น XP-200 จำนวน 50 ตัว ส่งระยอง ขอภายในวันนี้”","textChars":61,"textLines":1,"bbox":[100,257,1080,42]}
+{"kind":"shape","id":"sh/4jepk3yp","slide":6,"bbox":[170,432,900,0]}
+{"kind":"shape","id":"sh/velo7yh8","slide":6,"bbox":[142,402,60,60]}
+{"kind":"textbox","id":"sh/adc7etgn","slide":6,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[142,419,60,24]}
+{"kind":"textbox","id":"sh/87ypobil","slide":6,"text":"เข้าใจคำขอ","textPreview":"เข้าใจคำขอ","textChars":10,"textLines":1,"bbox":[84,484,176,36]}
+{"kind":"textbox","id":"sh/98rqxgz6","slide":6,"text":"สินค้า จำนวน ปลายทาง","textPreview":"สินค้า จำนวน ปลายทาง","textChars":20,"textLines":1,"bbox":[66,526,212,46]}
+{"kind":"shape","id":"sh/m5g7ml0f","slide":6,"bbox":[428,402,60,60]}
+{"kind":"textbox","id":"sh/n6p8vqh0","slide":6,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[428,419,60,24]}
+{"kind":"textbox","id":"sh/03ypkbi9","slide":6,"text":"ค้นข้อมูลภายใน","textPreview":"ค้นข้อมูลภายใน","textChars":14,"textLines":1,"bbox":[370,484,176,36]}
+{"kind":"textbox","id":"sh/l476tgzu","slide":6,"text":"ราคา สต็อก นโยบาย","textPreview":"ราคา สต็อก นโยบาย","textChars":17,"textLines":1,"bbox":[352,526,212,46]}
+{"kind":"shape","id":"sh/y1g7i10j","slide":6,"bbox":[714,402,60,60]}
+{"kind":"textbox","id":"sh/z2por6h4","slide":6,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[714,419,60,24]}
+{"kind":"textbox","id":"sh/kz2pwvit","slide":6,"text":"ใช้กฎธุรกิจ","textPreview":"ใช้กฎธุรกิจ","textChars":11,"textLines":1,"bbox":[656,484,176,36]}
+{"kind":"textbox","id":"sh/50bq50ze","slide":6,"text":"ส่วนลดและการจัดส่ง","textPreview":"ส่วนลดและการจัดส่ง","textChars":18,"textLines":1,"bbox":[638,526,212,46]}
+{"kind":"shape","id":"sh/tw7qp0ri","slide":6,"bbox":[1000,402,60,60]}
+{"kind":"textbox","id":"sh/svypgvqx","slide":6,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[1000,419,60,24]}
+{"kind":"textbox","id":"sh/ruponq9c","slide":6,"text":"สร้างฉบับร่าง","textPreview":"สร้างฉบับร่าง","textChars":13,"textLines":1,"bbox":[942,484,176,36]}
+{"kind":"textbox","id":"sh/6tw7e5sr","slide":6,"text":"ใบเสนอราคาและข้อความตอบ","textPreview":"ใบเสนอราคาและข้อความตอบ","textChars":23,"textLines":1,"bbox":[924,526,212,46]}
+{"kind":"shape","id":"sh/5sn6l0r6","slide":6,"bbox":[332,608,616,42]}
+{"kind":"textbox","id":"sh/4repcval","slide":6,"text":"ทุกขั้นใช้ข้อมูลที่องค์กรอนุญาต และรอคนตรวจในจุดสำคัญ","textPreview":"ทุกขั้นใช้ข้อมูลที่องค์กรอนุญาต และรอคนตรวจในจุดสำคัญ","textChars":53,"textLines":1,"bbox":[352,618,576,24]}
+{"kind":"textbox","id":"sh/jq5ojq9g","slide":6,"text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[1178,670,42,20]}
+{"kind":"image","id":"im/4val8r29","slide":6,"name":"","geometry":"rect","alt":"Gracer AI logo","bbox":[72,38,146,30]}
+{"kind":"notes","id":"nt/fab0az","slide":6,"text":"เข้าสู่เดโมงานเสนอราคา อธิบายสี่ขั้นให้เร็วและชี้ว่า interface สนทนาเป็นเพียงจุดรับคำขอ ส่วนคุณค่าจริงอยู่ที่ workflow หลังจากนั้น\nแหล่งข้อมูล: DEMO_SCRIPT.md"}
+{"kind":"slide","id":"sl/w4dq1v","slide":7,"title":"ผลลัพธ์พร้อมให้พนักงานตรวจ","textShapes":17}
+{"kind":"textbox","id":"sh/w7298vqd","slide":7,"text":"ผลลัพธ์พร้อมให้พนักงานตรวจ","textPreview":"ผลลัพธ์พร้อมให้พนักงานตรวจ","textChars":26,"textLines":1,"bbox":[72,94,1136,68]}
+{"kind":"textbox","id":"sh/x8vq10ri","slide":7,"text":"AI เตรียมใบเสนอราคาและข้อความตอบลูกค้า ส่วนคนยังอนุมัติก่อนส่ง","textPreview":"AI เตรียมใบเสนอราคาและข้อความตอบลูกค้า ส่วนคนยังอนุมัติก่อนส่ง","textChars":62,"textLines":1,"bbox":[72,160,1060,42]}
+{"kind":"shape","id":"sh/mhk72l8v","slide":7,"bbox":[72,226,700,362]}
+{"kind":"textbox","id":"sh/nit8v69g","slide":7,"text":"ใบเสนอราคา","textPreview":"ใบเสนอราคา","textChars":10,"textLines":1,"bbox":[106,256,260,38]}
+{"kind":"textbox","id":"sh/oj2p4bq1","slide":7,"text":"Eastern Industrial Supply Co., Ltd.","textPreview":"Eastern Industrial Supply Co., Ltd.","textChars":35,"textLines":1,"bbox":[106,298,350,26]}
+{"kind":"textbox","id":"sh/9kbqxgrm","slide":7,"text":"QT-2026-0914-001","textPreview":"QT-2026-0914-001","textChars":16,"textLines":1,"bbox":[535,258,200,24]}
+{"kind":"shape","id":"sh/ed07y18z","slide":7,"bbox":[106,344,630,0]}
+{"kind":"textbox","id":"sh/ze98r69k","slide":7,"text":"Industrial Pump XP-200","textPreview":"Industrial Pump XP-200","textChars":22,"textLines":1,"bbox":[106,378,340,32]}
+{"kind":"textbox","id":"sh/f2l4fe9c","slide":7,"text":"50 ตัว","textPreview":"50 ตัว","textChars":6,"textLines":1,"bbox":[630,378,106,30]}
+{"kind":"textbox","id":"sh/e1cnm987","slide":7,"text":"ส่วนลดโครงการ 7%","textPreview":"ส่วนลดโครงการ 7%","textChars":16,"textLines":1,"bbox":[106,448,250,28]}
+{"kind":"textbox","id":"sh/14nmh4ri","slide":7,"text":"ยอดสุทธิรวม VAT","textPreview":"ยอดสุทธิรวม VAT","textChars":15,"textLines":1,"bbox":[106,510,250,30]}
+{"kind":"textbox","id":"sh/03u5ozqx","slide":7,"text":"920,467.50 บาท","textPreview":"920,467.50 บาท","textChars":14,"textLines":1,"bbox":[466,500,270,42]}
+{"kind":"textbox","id":"sh/nq54je9o","slide":7,"text":"ก่อน","textPreview":"ก่อน","textChars":4,"textLines":1,"bbox":[838,246,110,28]}
+{"kind":"textbox","id":"sh/2pwnq983","slide":7,"text":"เกือบ 1 วัน","textPreview":"เกือบ 1 วัน","textChars":11,"textLines":1,"bbox":[838,278,340,64]}
+{"kind":"shape","id":"sh/psnmloru","slide":7,"bbox":[838,366,340,0]}
+{"kind":"textbox","id":"sh/ore5sjq9","slide":7,"text":"หลัง","textPreview":"หลัง","textChars":4,"textLines":1,"bbox":[838,398,110,28]}
+{"kind":"textbox","id":"sh/ju147u9k","slide":7,"text":"ตรวจประมาณ 3 นาที","textPreview":"ตรวจประมาณ 3 นาที","textChars":17,"textLines":1,"bbox":[838,434,350,70]}
+{"kind":"shape","id":"sh/its3ep8z","slide":7,"bbox":[838,532,340,58]}
+{"kind":"textbox","id":"sh/mp07mxs7","slide":7,"text":"พนักงานตรวจ แก้ไข และอนุมัติ","textPreview":"พนักงานตรวจ แก้ไข และอนุมัติ","textChars":28,"textLines":1,"bbox":[860,548,296,28]}
+{"kind":"textbox","id":"sh/7q98f2ts","slide":7,"text":"ตัวเลขจากสถานการณ์ตัวอย่าง ผลจริงต้องวัดจาก workflow ของแต่ละบริษัท","textPreview":"ตัวเลขจากสถานการณ์ตัวอย่าง ผลจริงต้องวัดจาก workflow ของแต่ละบริษัท","textChars":67,"textLines":1,"bbox":[72,622,830,28]}
+{"kind":"textbox","id":"sh/8riponad","slide":7,"text":"07","textPreview":"07","textChars":2,"textLines":1,"bbox":[1178,670,42,20]}
+{"kind":"image","id":"im/ip0ve9s7","slide":7,"name":"","geometry":"rect","alt":"Gracer AI logo","bbox":[72,38,146,30]}
+{"kind":"notes","id":"nt/w4dq1v","slide":7,"text":"เปิดเผยผลลัพธ์ ชี้ราคา ส่วนลด สต็อก แหล่งข้อมูล และ human approval จากนั้นอธิบายว่าตัวเลขเวลานี้เป็นตัวอย่างที่ต้องวัดกับงานจริง\nแหล่งข้อมูล: DEMO_SCRIPT.md และ SALES_PROPOSAL.md"}
+{"kind":"slide","id":"sl/a9ks2v","slide":8,"title":"AI Governance","textShapes":13}
+{"kind":"textbox","id":"sh/xwje90be","slide":8,"text":"AI Governance","textPreview":"AI Governance","textChars":13,"textLines":1,"bbox":[72,94,1136,68]}
+{"kind":"textbox","id":"sh/wvax0fut","slide":8,"text":"การควบคุมช่วยให้องค์กรใช้ AI ได้ต่อเนื่อง โดยรู้ว่าใครใช้ข้อมูลอะไรและอนุมัติเมื่อใด","textPreview":"การควบคุมช่วยให้องค์กรใช้ AI ได้ต่อเนื่อง โดยรู้ว่าใครใช้ข้อมูลอะไรและอนุมัติเมื่อใด","textChars":84,"textLines":1,"bbox":[72,160,1060,42]}
+{"kind":"shape","id":"sh/m58fulcr","slide":8,"bbox":[650,236,558,92]}
+{"kind":"shape","id":"sh/98je50bi","slide":8,"bbox":[672,258,44,44]}
+{"kind":"textbox","id":"sh/87axwvux","slide":8,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[672,269,44,20]}
+{"kind":"textbox","id":"sh/72lgfutg","slide":8,"text":"GeGi AI Control Plan","textPreview":"GeGi AI Control Plan","textChars":20,"textLines":1,"bbox":[736,252,440,30]}
+{"kind":"textbox","id":"sh/61cf6psv","slide":8,"text":"กำหนดบทบาท เครื่องมือ โมเดล และ approval ของ AI agents","textPreview":"กำหนดบทบาท เครื่องมือ โมเดล และ approval ของ AI agents","textChars":54,"textLines":1,"bbox":[736,286,440,30]}
+{"kind":"shape","id":"sh/c7mdkbe1","slide":8,"bbox":[650,348,558,92]}
+{"kind":"shape","id":"sh/d8vedgf6","slide":8,"bbox":[672,370,44,44]}
+{"kind":"textbox","id":"sh/q54vilgv","slide":8,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[672,381,44,20]}
+{"kind":"textbox","id":"sh/r6dwbqxg","slide":8,"text":"AI Gateway & Optimization","textPreview":"AI Gateway & Optimization","textChars":25,"textLines":1,"bbox":[736,364,440,30]}
+{"kind":"textbox","id":"sh/43mdgbyp","slide":8,"text":"จัดเส้นทางหลายโมเดล พร้อมควบคุมคุณภาพ ความเร็ว และต้นทุน","textPreview":"จัดเส้นทางหลายโมเดล พร้อมควบคุมคุณภาพ ความเร็ว และต้นทุน","textChars":56,"textLines":1,"bbox":[736,398,440,30]}
+{"kind":"shape","id":"sh/p4ve9gfa","slide":8,"bbox":[650,460,558,92]}
+{"kind":"shape","id":"sh/21kve1gj","slide":8,"bbox":[672,482,44,44]}
+{"kind":"textbox","id":"sh/32tc76x4","slide":8,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[672,493,44,20]}
+{"kind":"textbox","id":"sh/gf2dcryt","slide":8,"text":"RAG & Sandbox","textPreview":"RAG & Sandbox","textChars":13,"textLines":1,"bbox":[736,476,440,30]}
+{"kind":"textbox","id":"sh/hgbu5wfy","slide":8,"text":"ให้ AI ใช้ความรู้องค์กรและเครื่องมือจริงในขอบเขตที่ตรวจสอบได้","textPreview":"ให้ AI ใช้ความรู้องค์กรและเครื่องมือจริงในขอบเขตที่ตรวจสอบได้","textChars":61,"textLines":1,"bbox":[736,510,440,30]}
+{"kind":"shape","id":"sh/xkj2to3q","slide":8,"bbox":[650,586,558,58]}
+{"kind":"textbox","id":"sh/wja103m5","slide":8,"text":"เป้าหมายคือกำหนดขอบเขต ตรวจสอบได้ และลดความเสี่ยง","textPreview":"เป้าหมายคือกำหนดขอบเขต ตรวจสอบได้ และลดความเสี่ยง","textChars":49,"textLines":1,"bbox":[675,602,508,28]}
+{"kind":"textbox","id":"sh/vy1krylk","slide":8,"text":"08","textPreview":"08","textChars":2,"textLines":1,"bbox":[1178,670,42,20]}
+{"kind":"image","id":"im/vex4zm5s","slide":8,"name":"","geometry":"rect","alt":"Gracer AI logo","bbox":[72,38,146,30]}
+{"kind":"image","id":"im/mp4n2h4b","slide":8,"name":"","geometry":"roundRect","alt":"AI Governance control environment","bbox":[72,228,530,354]}
+{"kind":"notes","id":"nt/a9ks2v","slide":8,"text":"พูดถึงผลิตภัณฑ์ทั้งสามแบบสั้น โดยเน้นผลทางธุรกิจมากกว่าศัพท์โครงสร้างพื้นฐาน และไม่รับรองว่าไม่มีความเสี่ยงเลย\nแหล่งข้อมูล: src/data/productDetails.ts และ SALES_PROPOSAL.md"}
+{"kind":"slide","id":"sl/en8qh4","slide":9,"title":"AI Training","textShapes":13}
+{"kind":"textbox","id":"sh/xgfux4bm","slide":9,"text":"AI Training","textPreview":"AI Training","textChars":11,"textLines":1,"bbox":[72,94,1136,68]}
+{"kind":"textbox","id":"sh/wf6d4za1","slide":9,"text":"ทีมต้องเข้าใจทั้งการใช้เครื่องมือ การออกแบบ workflow และขอบเขตข้อมูลที่เหมาะสม","textPreview":"ทีมต้องเข้าใจทั้งการใช้เครื่องมือ การออกแบบ workflow และขอบเขตข้อมูลที่เหมาะสม","textChars":78,"textLines":1,"bbox":[72,160,1060,42]}
+{"kind":"textbox","id":"sh/mp4vypsz","slide":9,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[72,228,42,28]}
+{"kind":"textbox","id":"sh/9cfutkba","slide":9,"text":"Basic AI for Business","textPreview":"Basic AI for Business","textChars":21,"textLines":1,"bbox":[132,226,470,38]}
+{"kind":"textbox","id":"sh/ob6d0zap","slide":9,"text":"เริ่มใช้ AI กับงานประจำอย่างมีวิจารณญาณ","textPreview":"เริ่มใช้ AI กับงานประจำอย่างมีวิจารณญาณ","textChars":39,"textLines":1,"bbox":[132,268,450,48]}
+{"kind":"shape","id":"sh/zmdcnat8","slide":9,"bbox":[72,326,520,0]}
+{"kind":"textbox","id":"sh/el4bu5sn","slide":9,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[72,346,42,28]}
+{"kind":"textbox","id":"sh/ovud8365","slide":9,"text":"Advanced AI Workflow Development","textPreview":"Advanced AI Workflow Development","textChars":32,"textLines":1,"bbox":[132,344,470,38]}
+{"kind":"textbox","id":"sh/9w3uh87q","slide":9,"text":"ออกแบบระบบที่เชื่อมข้อมูล เครื่องมือ และการตัดสินใจ","textPreview":"ออกแบบระบบที่เชื่อมข้อมูล เครื่องมือ และการตัดสินใจ","textChars":51,"textLines":1,"bbox":[132,386,450,48]}
+{"kind":"shape","id":"sh/mtsb6doz","slide":9,"bbox":[72,444,520,0]}
+{"kind":"textbox","id":"sh/nu1cfypk","slide":9,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[72,464,42,28]}
+{"kind":"textbox","id":"sh/07at436t","slide":9,"text":"10X AI Business Workshop for SMEs","textPreview":"10X AI Business Workshop for SMEs","textChars":33,"textLines":1,"bbox":[132,462,470,38]}
+{"kind":"textbox","id":"sh/1sjud87e","slide":9,"text":"สร้าง AI Co-Pilot จากสถานการณ์ธุรกิจจริง","textPreview":"สร้าง AI Co-Pilot จากสถานการณ์ธุรกิจจริง","textChars":40,"textLines":1,"bbox":[132,504,450,48]}
+{"kind":"shape","id":"sh/e5sb2to3","slide":9,"bbox":[72,602,1136,48]}
+{"kind":"textbox","id":"sh/z61cbyp8","slide":9,"text":"Training ช่วยให้องค์กรไม่ต้องพึ่งคนเพียงไม่กี่คนในการขับเคลื่อน AI","textPreview":"Training ช่วยให้องค์กรไม่ต้องพึ่งคนเพียงไม่กี่คนในการขับเคลื่อน AI","textChars":66,"textLines":1,"bbox":[96,614,1088,26]}
+{"kind":"textbox","id":"sh/k3edgn6d","slide":9,"text":"09","textPreview":"09","textChars":2,"textLines":1,"bbox":[1178,670,42,20]}
+{"kind":"image","id":"im/7m5o7y5c","slide":9,"name":"","geometry":"rect","alt":"Gracer AI logo","bbox":[72,38,146,30]}
+{"kind":"image","id":"im/upwnit43","slide":9,"name":"","geometry":"roundRect","alt":"Team learning to build AI workflows","bbox":[682,222,526,350]}
+{"kind":"notes","id":"nt/en8qh4","slide":9,"text":"พูดถึงหลักสูตรทั้งสามให้ผู้ชมรู้ว่ามีทางเลือกตั้งแต่ระดับเริ่มต้นถึงการสร้าง workflow ขั้นสูง แต่ไม่ต้องลงรายละเอียดหลักสูตรในเด็คนี้\nแหล่งข้อมูล: src/components/LandingPage.tsx และ src/data/productDetails.ts"}
+{"kind":"slide","id":"sl/5onkzv","slide":10,"title":"เริ่มจากงานที่สำคัญที่สุดของธุรกิจ","textShapes":16}
+{"kind":"shape","id":"sh/butgb2t4","slide":10,"bbox":[67,33,156,40]}
+{"kind":"textbox","id":"sh/xwbydcba","slide":10,"text":"เริ่มจากงานที่สำคัญที่สุดของธุรกิจ","textPreview":"เริ่มจากงานที่สำคัญที่สุดของธุรกิจ","textChars":34,"textLines":1,"bbox":[72,94,1136,68]}
+{"kind":"textbox","id":"sh/yh4fmhsv","slide":10,"text":"Gracer AI ช่วยเลือกจุดเริ่มต้นให้เหมาะกับปัญหา ความพร้อม และระดับการควบคุมที่ต้องการ","textPreview":"Gracer AI ช่วยเลือกจุดเริ่มต้นให้เหมาะกับปัญหา ความพร้อม และระดับการควบคุมที่ต้องการ","textChars":84,"textLines":1,"bbox":[72,160,1060,42]}
+{"kind":"shape","id":"sh/zidgfmt0","slide":10,"bbox":[72,252,344,148]}
+{"kind":"shape","id":"sh/kjmxoral","slide":10,"bbox":[72,252,344,7]}
+{"kind":"textbox","id":"sh/lkvyhwb6","slide":10,"text":"ต้องการผลลัพธ์จากงานจริง","textPreview":"ต้องการผลลัพธ์จากงานจริง","textChars":24,"textLines":1,"bbox":[96,286,296,36]}
+{"kind":"textbox","id":"sh/el0faxsb","slide":10,"text":"AI Transformation","textPreview":"AI Transformation","textChars":17,"textLines":1,"bbox":[96,334,296,34]}
+{"kind":"shape","id":"sh/fm9w3itw","slide":10,"bbox":[448,252,344,148]}
+{"kind":"shape","id":"sh/byhw3i1o","slide":10,"bbox":[448,252,344,7]}
+{"kind":"textbox","id":"sh/qx8vadk3","slide":10,"text":"ต้องการควบคุมการใช้ AI","textPreview":"ต้องการควบคุมการใช้ AI","textChars":22,"textLines":1,"bbox":[472,286,296,36]}
+{"kind":"textbox","id":"sh/d0je5sje","slide":10,"text":"AI Governance","textPreview":"AI Governance","textChars":13,"textLines":1,"bbox":[472,334,296,34]}
+{"kind":"shape","id":"sh/czqdcn2t","slide":10,"bbox":[824,252,344,148]}
+{"kind":"shape","id":"sh/3uhczylc","slide":10,"bbox":[824,252,344,7]}
+{"kind":"textbox","id":"sh/2t8v6tkr","slide":10,"text":"ต้องการให้ทีมใช้งานเป็น","textPreview":"ต้องการให้ทีมใช้งานเป็น","textChars":23,"textLines":1,"bbox":[848,286,296,36]}
+{"kind":"textbox","id":"sh/pwzu18ji","slide":10,"text":"AI Training","textPreview":"AI Training","textChars":11,"textLines":1,"bbox":[848,334,296,34]}
+{"kind":"textbox","id":"sh/ovqd832x","slide":10,"text":"ข้อเสนอเริ่มต้นสำหรับ SME","textPreview":"ข้อเสนอเริ่มต้นสำหรับ SME","textChars":25,"textLines":1,"bbox":[72,454,470,34]}
+{"kind":"textbox","id":"sh/f6xcvylg","slide":10,"text":"AI Workflow Starter","textPreview":"AI Workflow Starter","textChars":19,"textLines":1,"bbox":[72,500,520,52]}
+{"kind":"textbox","id":"sh/e5ov2tkv","slide":10,"text":"เริ่มต้น 9,999 บาท","textPreview":"เริ่มต้น 9,999 บาท","textChars":18,"textLines":1,"bbox":[72,558,470,42]}
+{"kind":"textbox","id":"sh/i1ovet4n","slide":10,"text":"สำหรับ SME ที่ต้องการเห็นภาพก่อนลงทุนระบบเต็มรูปแบบ","textPreview":"สำหรับ SME ที่ต้องการเห็นภาพก่อนลงทุนระบบเต็มรูปแบบ","textChars":51,"textLines":1,"bbox":[72,612,520,30]}
+{"kind":"shape","id":"sh/j2xwny58","slide":10,"bbox":[710,470,498,124]}
+{"kind":"textbox","id":"sh/436dgjmt","slide":10,"text":"นัด Workflow Assessment 30 นาที","textPreview":"นัด Workflow Assessment 30 นาที","textChars":31,"textLines":1,"bbox":[742,494,434,34]}
+{"kind":"textbox","id":"sh/54fepone","slide":10,"text":"apinan@gracer.co.th","textPreview":"apinan@gracer.co.th","textChars":19,"textLines":1,"bbox":[742,542,434,28]}
+{"kind":"textbox","id":"sh/65ofit4z","slide":10,"text":"เริ่มจากหนึ่งงาน วัดผลจริง แล้วค่อยขยาย","textPreview":"เริ่มจากหนึ่งงาน วัดผลจริง แล้วค่อยขยาย","textChars":39,"textLines":1,"bbox":[710,626,498,28]}
+{"kind":"textbox","id":"sh/rqxwry54","slide":10,"text":"10","textPreview":"10","textChars":2,"textLines":1,"bbox":[1178,670,42,20]}
+{"kind":"image","id":"im/pcn29c32","slide":10,"name":"","geometry":"rect","alt":"Gracer AI logo","bbox":[72,38,146,30]}
+{"kind":"notes","id":"nt/5onkzv","slide":10,"text":"ปิดด้วยสามทางเลือกตาม Pillar แล้วเสนอ Workflow Assessment พร้อมข้อเสนอเริ่มต้น 9,999 บาทสำหรับ SME ที่ยังต้องการเห็นภาพก่อนลงทุนระบบเต็มรูปแบบ รายละเอียดขอบเขตและระยะเวลาต้องยืนยันก่อนเริ่มงาน\nแหล่งข้อมูล: EXECUTION_PLAN.md; ข้อเสนอเริ่มต้นจากคำยืนยันของเจ้าของโครงการ"}
