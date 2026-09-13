@@ -13,6 +13,14 @@ RUN bun install
 # คัดลอก source code
 COPY . .
 
+# Vite reads VITE_* variables while compiling the static bundle. Declaring
+# these build arguments lets the deployment platform pass its configured
+# build-time environment into `bun run build`.
+ARG VITE_BOOKING_URL
+ARG VITE_DISCORD_WEBHOOK_URL
+ARG VITE_LEAD_WEBHOOK_URL
+ARG VITE_LINE_OA_URL
+
 # Build application
 RUN bun run build
 
