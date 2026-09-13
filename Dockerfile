@@ -17,7 +17,6 @@ COPY . .
 # these build arguments lets the deployment platform pass its configured
 # build-time environment into `bun run build`.
 ARG VITE_BOOKING_URL
-ARG VITE_DISCORD_WEBHOOK_URL
 ARG VITE_LEAD_WEBHOOK_URL
 ARG VITE_LINE_OA_URL
 
@@ -34,6 +33,7 @@ FROM nginx:alpine
 
 # คัดลอก nginx configuration
 COPY nginx.conf /etc/nginx/conf.d/default.conf
+COPY --chmod=755 docker/40-contact-webhook.sh /docker-entrypoint.d/40-contact-webhook.sh
 
 # คัดลอก build files จาก build stage
 COPY --from=build /app/dist /usr/share/nginx/html

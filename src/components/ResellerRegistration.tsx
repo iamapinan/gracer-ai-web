@@ -69,7 +69,9 @@ const ResellerRegistration = () => {
     e.preventDefault();
     if (!validateForm()) return;
     const details = `${t('companyName')}: ${formData.companyName}\n${t('contactName')}: ${formData.contactName}\n${t('email')}: ${formData.email}\n${t('phone')}: ${formData.phone}\n${t('address')}: ${formData.address}\n${t('businessType')}: ${formData.businessType}\n${t('additionalMessage')}: ${formData.message || '-'}`;
-    const webhookUrl = import.meta.env.VITE_DISCORD_WEBHOOK_URL?.trim();
+    const webhookUrl = import.meta.env.PROD
+      ? '/api/contact'
+      : import.meta.env.VITE_DISCORD_WEBHOOK_URL?.trim();
 
     if (!webhookUrl) {
       const subject = encodeURIComponent(`ขอรับคำปรึกษา Gracer AI — ${formData.companyName}`);
