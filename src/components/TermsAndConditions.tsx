@@ -1,10 +1,9 @@
 import React from 'react';
+import LegalPageShell from './LegalPageShell';
 
 const TermsAndConditions: React.FC = () => {
   return (
-<div className="max-w-4xl mx-auto px-4 py-8">
-      <h1 className="text-3xl font-bold mb-6">ข้อกำหนดการให้บริการ (Terms of Service)</h1>
-      
+    <LegalPageShell title="ข้อกำหนดการให้บริการ" updatedAt={new Date().toLocaleDateString('th-TH')}>
       <div className="space-y-6">
         <section>
           <h2 className="text-2xl font-semibold mb-4">1. การยอมรับข้อกำหนด</h2>
@@ -76,11 +75,8 @@ const TermsAndConditions: React.FC = () => {
           </p>
         </section>
 
-        <div className="mt-8 text-sm text-gray-600">
-          <p>อัปเดตล่าสุด: {new Date().toLocaleDateString('th-TH')}</p>
-        </div>
       </div>
-    </div>
+    </LegalPageShell>
   );
 };
 

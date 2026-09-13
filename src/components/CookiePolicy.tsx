@@ -1,8 +1,8 @@
+import LegalPageShell from './LegalPageShell';
+
 export default function CookiePolicy() {
   return (
-    <div className="max-w-4xl mx-auto px-4 py-8">
-      <h1 className="text-4xl font-bold mb-8">นโยบายการใช้คุกกี้ (Cookie Policy)</h1>
-      
+    <LegalPageShell title="นโยบายการใช้คุกกี้">
       <section className="mb-8">
         <h2 className="text-2xl font-semibold mb-4">คุกกี้คืออะไร?</h2>
         <p className="mb-4">
@@ -51,6 +51,6 @@ export default function CookiePolicy() {
           หากคุณมีคำถามเกี่ยวกับนโยบายคุกกี้ของเรา กรุณาติดต่อเราได้ที่ support@gracer.ai
         </p>
       </section>
-    </div>
+    </LegalPageShell>
   );
 } 

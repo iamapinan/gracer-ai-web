@@ -6,13 +6,14 @@ import './index.css';
 
 // Components
 import Layout from './components/Layout';
+import LandingPage from './components/LandingPage';
 import Footer from './components/Footer';
 import ResellerRegistration from './components/ResellerRegistration';
 import PrivacyPolicy from './components/PrivacyPolicy';
 import TermsAndConditions from './components/TermsAndConditions';
 import CookiePolicy from './components/CookiePolicy';
 import DemoPage from './components/DemoPage';
-import LeadLandingPage from './components/LeadLandingPage';
+import ProductDetailPage from './components/ProductDetailPage';
 
 function AppContent() {
   const location = useLocation();
@@ -27,7 +28,14 @@ function AppContent() {
     <>
       <Routes>
         <Route path="/demo" element={<DemoPage />} />
-        <Route path="/" element={<LeadLandingPage />} />
+        <Route path="/llm" element={<Layout><ProductDetailPage /></Layout>} />
+        <Route path="/products/:slug" element={<Layout><ProductDetailPage /></Layout>} />
+        <Route path="/" element={
+          <Layout>
+            <LandingPage />
+            <ResellerRegistration />
+          </Layout>
+        } />
         <Route path="/privacy-policy" element={
           <Layout>
             <PrivacyPolicy />
@@ -49,7 +57,7 @@ function AppContent() {
           </Layout>
         } />
       </Routes>
-      {location.pathname !== '/demo' && location.pathname !== '/' && <Footer />}
+      {location.pathname !== '/demo' && <Footer />}
     </>
   );
 }

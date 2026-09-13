@@ -1,13 +1,12 @@
 import React from 'react';
+import LegalPageShell from './LegalPageShell';
 
 const PrivacyPolicy: React.FC = () => {
   return (
-    <div className="max-w-4xl mx-auto px-4 py-8 bg-black rounded-lg">
-      <h1 className="text-3xl font-bold mb-6">นโยบายความเป็นส่วนตัว</h1>
-      
+    <LegalPageShell title="นโยบายความเป็นส่วนตัว" updatedAt={new Date().toLocaleDateString('th-TH')}>
       <section className="mb-8">
         <h2 className="text-2xl font-semibold mb-4">1. การเก็บข้อมูลส่วนบุคคล</h2>
-        <p className="text-gray-100 mb-4">
+        <p className="text-[#54515f] mb-4">
           เรารวบรวมข้อมูลส่วนบุคคลของคุณเพื่อให้บริการที่ดีที่สุด โดยข้อมูลที่เรารวบรวมอาจรวมถึง:
         </p>
         <ul className="list-disc pl-6 mb-4">
@@ -20,7 +19,7 @@ const PrivacyPolicy: React.FC = () => {
 
       <section className="mb-8">
         <h2 className="text-2xl font-semibold mb-4">2. การใช้ข้อมูล</h2>
-        <p className="text-gray-100 mb-4">
+        <p className="text-[#54515f] mb-4">
           เราใช้ข้อมูลของคุณเพื่อ:
         </p>
         <ul className="list-disc pl-6 mb-4">
@@ -33,14 +32,14 @@ const PrivacyPolicy: React.FC = () => {
 
       <section className="mb-8">
         <h2 className="text-2xl font-semibold mb-4">3. การคุ้มครองข้อมูล</h2>
-        <p className="text-gray-100 mb-4">
+        <p className="text-[#54515f] mb-4">
           เรามีมาตรการรักษาความปลอดภัยที่เหมาะสมเพื่อปกป้องข้อมูลส่วนบุคคลของคุณจากการเข้าถึงโดยไม่ได้รับอนุญาต การเปิดเผย การเปลี่ยนแปลง หรือการทำลาย
         </p>
       </section>
 
       <section className="mb-8">
         <h2 className="text-2xl font-semibold mb-4">4. สิทธิ์ของคุณ</h2>
-        <p className="text-gray-100 mb-4">
+        <p className="text-[#54515f] mb-4">
           คุณมีสิทธิ์ในการ:
         </p>
         <ul className="list-disc pl-6 mb-4">
@@ -53,17 +52,14 @@ const PrivacyPolicy: React.FC = () => {
 
       <section className="mb-8">
         <h2 className="text-2xl font-semibold mb-4">5. การติดต่อ</h2>
-        <p className="text-gray-100 mb-4">
+        <p className="text-[#54515f] mb-4">
           หากคุณมีคำถามเกี่ยวกับนโยบายความเป็นส่วนตัวของเรา กรุณาติดต่อเราได้ที่:
           <br />
           อีเมล: privacy@gracer.co.th
         </p>
       </section>
 
-      <footer className="text-sm text-gray-500">
-        <p>อัปเดตล่าสุด: {new Date().toLocaleDateString('th-TH')}</p>
-      </footer>
-    </div>
+    </LegalPageShell>
   );
 };
 

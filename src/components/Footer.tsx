@@ -7,14 +7,14 @@ const Footer = () => {
   const [isTermsOpen, setIsTermsOpen] = useState(false);
 
   return (
-    <footer className="bg-black text-white py-16">
+    <footer className="border-t border-[#2a2930]/10 bg-white py-16 text-[#2a2930]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="md:col-span-1">
-            <h3 className="text-xl font-bold mb-4">Gracer AI</h3>
-            <p className="text-gray-400 mb-4">Revolutionizing local AI processing with intelligence platform, complete privacy, and seamless connectivity.</p>
+            <img src="/assets/logo-text.png" alt="Gracer AI" className="mb-5 h-8 w-auto" />
+            <p className="mb-4 max-w-xs leading-relaxed text-[#54515f]">AI solutions for business change, trusted control and practical adoption.</p>
             <div className="flex space-x-4">
-              <a href="https://www.facebook.com/gracercorp" className="text-gray-400 hover:text-white">
+              <a href="https://www.facebook.com/gracercorp" className="text-[#54515f] hover:text-[#8c52ff]">
                 <span className="sr-only">Facebook</span>
                 <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                   <path d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" />
@@ -23,39 +23,36 @@ const Footer = () => {
             </div>
           </div>
           <div>
-            <h3 className="text-sm font-semibold text-gray-200 uppercase tracking-wider">Product</h3>
+            <h3 className="text-sm font-semibold uppercase tracking-wider text-[#2a2930]">Explore</h3>
             <ul className="mt-4 space-y-2">
-              <li><a href="#" className="text-gray-400 hover:text-white">Features</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white">Specifications</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white">Pre-order</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white">Pricing</a></li>
+              <li><a href="/#services" className="text-[#54515f] hover:text-[#8c52ff]">Services</a></li>
+              <li><a href="/#products" className="text-[#54515f] hover:text-[#8c52ff]">Products</a></li>
+              <li><a href="/#contact" className="text-[#54515f] hover:text-[#8c52ff]">Talk to us</a></li>
             </ul>
           </div>
           <div>
-            <h3 className="text-sm font-semibold text-gray-200 uppercase tracking-wider">Support</h3>
+            <h3 className="text-sm font-semibold uppercase tracking-wider text-[#2a2930]">Services</h3>
             <ul className="mt-4 space-y-2">
-              <li><a href="#" className="text-gray-400 hover:text-white">Documentation</a></li>
-              <li><a href="https://www.npmjs.com/package/gracerai-sdk" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white">SDK</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white">API Reference</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white">Community</a></li>
+              <li><a href="/#services" className="text-[#54515f] hover:text-[#8c52ff]">AI Transformation</a></li>
+              <li><a href="/#services" className="text-[#54515f] hover:text-[#8c52ff]">AI Governance</a></li>
+              <li><a href="/#services" className="text-[#54515f] hover:text-[#8c52ff]">AI Training</a></li>
             </ul>
           </div>
           <div>
-            <h3 className="text-sm font-semibold text-gray-200 uppercase tracking-wider">Company</h3>
+            <h3 className="text-sm font-semibold uppercase tracking-wider text-[#2a2930]">Company</h3>
             <ul className="mt-4 space-y-2">
-              <li><a href="#" className="text-gray-400 hover:text-white">About</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white">Blog</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white">Careers</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white">Contact</a></li>
+              <li><a href="/#contact" className="text-[#54515f] hover:text-[#8c52ff]">Contact</a></li>
+              <li><a href="/privacy-policy" className="text-[#54515f] hover:text-[#8c52ff]">Privacy</a></li>
+              <li><a href="/terms-and-conditions" className="text-[#54515f] hover:text-[#8c52ff]">Terms</a></li>
             </ul>
           </div>
         </div>
-        <div className="mt-12 border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-gray-400 text-sm">© {new Date().getFullYear()} Gracer AI by Gracer Corp. All rights reserved.</p>
+        <div className="mt-12 flex flex-col items-center justify-between border-t border-[#2a2930]/10 pt-8 md:flex-row">
+          <p className="text-sm text-[#77737f]">© {new Date().getFullYear()} Gracer AI by Gracer Corp. All rights reserved.</p>
           <div className="mt-4 md:mt-0 flex space-x-6">
-            <a href="/privacy-policy" className="text-gray-400 hover:text-white text-sm">Privacy Policy</a>
-            <a href="/terms-and-conditions" className="text-gray-400 hover:text-white text-sm">Terms of Service</a>
-            <a href="/cookie-policy" className="text-gray-400 hover:text-white text-sm">Cookie Policy</a>
+            <a href="/privacy-policy" className="text-sm text-[#77737f] hover:text-[#8c52ff]">Privacy Policy</a>
+            <a href="/terms-and-conditions" className="text-sm text-[#77737f] hover:text-[#8c52ff]">Terms of Service</a>
+            <a href="/cookie-policy" className="text-sm text-[#77737f] hover:text-[#8c52ff]">Cookie Policy</a>
           </div>
         </div>
       </div>
