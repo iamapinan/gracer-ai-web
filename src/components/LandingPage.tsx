@@ -1,12 +1,12 @@
 import { motion } from 'framer-motion';
-import { ArrowRight, Check, ShieldCheck, Sparkles, Workflow, GraduationCap } from 'lucide-react';
+import { ArrowRight, Check, ExternalLink, ShieldCheck, Sparkles, Workflow, GraduationCap } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import HeroMotionCanvas from './HeroMotionCanvas';
 import { useLanguage } from '../contexts/LanguageContext';
-import { productVisualPath } from '../data/productDetails';
+import { productDetails, productVisualPath } from '../data/productDetails';
 
 const LandingPage = () => {
-  const { t } = useLanguage();
+  const { language, t } = useLanguage();
   const pillars = [
     {
       number: '01',
@@ -135,14 +135,24 @@ const LandingPage = () => {
           </div>
 
           <div className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-            {catalogProducts.map(({ product, pillar, slug }, index) => (
-              <motion.article key={product} initial={{ opacity: 0, y: 14 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.35, delay: Math.min(index * 0.035, 0.24) }} className="group flex min-h-52 flex-col rounded-2xl border border-[#2a2930]/10 bg-white p-5 transition hover:-translate-y-1 hover:shadow-[0_16px_36px_rgba(42,41,48,0.1)]">
-                <img src={productVisualPath(slug)} alt="" className="h-24 w-24 object-contain transition duration-300 group-hover:scale-105" />
-                <p className="mt-5 text-xs font-bold uppercase tracking-[0.14em] text-[#77737f]">{pillar}</p>
-                <h3 className="mt-3 font-urbanist text-xl font-bold leading-tight tracking-[-0.025em]">{product}</h3>
-                <Link to={slug === 'llm' ? '/llm' : `/products/${slug}`} className="mt-auto pt-7 text-sm font-semibold text-[#8c52ff]">{t('productDetailsSoon')} <ArrowRight className="inline" size={15} /></Link>
-              </motion.article>
-            ))}
+            {catalogProducts.map(({ product, pillar, slug }, index) => {
+              const source = productDetails[slug]?.source;
+              return (
+                <motion.article key={product} initial={{ opacity: 0, y: 14 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.35, delay: Math.min(index * 0.035, 0.24) }} className="group flex min-h-52 flex-col rounded-2xl border border-[#2a2930]/10 bg-white p-5 transition hover:-translate-y-1 hover:shadow-[0_16px_36px_rgba(42,41,48,0.1)]">
+                  <img src={productVisualPath(slug)} alt="" className="h-24 w-24 object-contain transition duration-300 group-hover:scale-105" />
+                  <p className="mt-5 text-xs font-bold uppercase tracking-[0.14em] text-[#77737f]">{pillar}</p>
+                  <h3 className="mt-3 font-urbanist text-xl font-bold leading-tight tracking-[-0.025em]">{product}</h3>
+                  <div className="mt-auto flex flex-wrap items-center gap-x-4 gap-y-2 pt-7 text-sm font-semibold">
+                    <Link to={slug === 'llm' ? '/llm' : `/products/${slug}`} className="text-[#8c52ff]">{t('productDetailsSoon')} <ArrowRight className="inline" size={15} /></Link>
+                    {source && (
+                      <a href={source.url} target="_blank" rel="noreferrer" className="inline-flex items-center gap-1.5 text-[#54515f] transition hover:text-[#2a2930]">
+                        {source.label[language]} <ExternalLink size={14} />
+                      </a>
+                    )}
+                  </div>
+                </motion.article>
+              );
+            })}
           </div>
         </div>
       </section>
