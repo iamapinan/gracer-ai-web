@@ -1,6 +1,6 @@
 # Gracer AI SME AI Operations — Execution Plan
 
-> Last updated: 13 September 2026  
+> Last updated: 14 September 2026  
 > Event date: 14 September 2026  
 > Primary objective: acquire qualified SME leads and close the first paid AI Workflow Pilot.
 
@@ -161,6 +161,7 @@ Done when: three consecutive rehearsals finish within seven minutes and create a
 | P0 | Add event QR code with UTM attribution | Not started | 8 Sep | Submission records `sme-connect-rayong-2026` |
 | P0 | Rehearse and record offline fallback | Not started | 10 Sep | Three successful timed runs plus local video |
 | P0 | Create SME event presentation deck | Done | 13 Sep | `artifacts/presentations/Gracer-AI-Company-Overview-2026-r3.pptx` includes the grand cover, ready-now versus contact-first product grouping, and 9,999 THB Workflow Starter |
+| P0 | Remove demo stage-tab flicker | Done | 14 Sep | Removed the blank transition and repeated card entrance animation during manual switching; production build and four-stage browser check passed |
 | P1 | Add conversion analytics | Not started | 9 Sep | Six funnel events visible in analytics |
 | P1 | Prepare LINE saved replies and discovery agenda | Not started | 9 Sep | Team can handle a sample lead consistently |
 | P1 | Test email sender and spam placement | Not started | 10 Sep | Gmail and business-domain inbox tests pass |
@@ -250,3 +251,4 @@ Every Pilot must define:
 | 13 Sep 2026 | Revised the event offer architecture to introduce a 9,999 THB Workflow Starter before the full 49,000 THB Pilot. |
 | 13 Sep 2026 | Completed and validated company overview deck r3 after review of the cover, product readiness, and SME entry price. |
 | 13 Sep 2026 | Imported deck r3 as native Google Slides and completed `PRESENTATION_AND_BOOTH_SCRIPT.md`; aligned the demo script with the 9,999 THB Starter entry offer. |
+| 14 Sep 2026 | Removed the visible flash when switching completed demo stages while preserving the automatic workflow animation. |

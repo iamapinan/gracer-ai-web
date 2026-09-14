@@ -57,7 +57,7 @@ function BrandMark({ size = 'md' }: { size?: 'sm' | 'md' | 'lg' }) {
   );
 }
 
-function UnderstandingScene() {
+function UnderstandingScene({ animateEntrance = true }: { animateEntrance?: boolean }) {
   return (
     <div className="mx-auto max-w-3xl">
       <div className="mb-7 text-center">
@@ -72,9 +72,9 @@ function UnderstandingScene() {
           {extractedRequest.map((item, index) => (
             <motion.div
               key={item.label}
-              initial={{ opacity: 0, y: 10 }}
+              initial={animateEntrance ? { opacity: 0, y: 10 } : false}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: index * 0.06 }}
+              transition={animateEntrance ? { delay: index * 0.06 } : { duration: 0 }}
               className={`rounded-2xl bg-[#f4f4f1] px-4 py-3 ${item.label === 'สินค้า' ? 'sm:col-span-2' : ''}`}
             >
               <p className="text-xs text-zinc-500">{item.label}</p>
@@ -87,7 +87,7 @@ function UnderstandingScene() {
   );
 }
 
-function KnowledgeScene({ completedSteps }: { completedSteps: number }) {
+function KnowledgeScene({ completedSteps, animateEntrance = true }: { completedSteps: number; animateEntrance?: boolean }) {
   const visibleSources = sources.slice(0, completedSteps >= 5 ? sources.length : Math.max(2, completedSteps - 1));
   return (
     <div className="mx-auto max-w-4xl">
@@ -102,9 +102,9 @@ function KnowledgeScene({ completedSteps }: { completedSteps: number }) {
             href={source.path}
             target="_blank"
             rel="noreferrer"
-            initial={{ opacity: 0, y: 12 }}
+            initial={animateEntrance ? { opacity: 0, y: 12 } : false}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: index * 0.06 }}
+            transition={animateEntrance ? { delay: index * 0.06 } : { duration: 0 }}
             className="group flex min-h-32 flex-col justify-between rounded-2xl border border-zinc-200 bg-white p-5 shadow-[0_10px_35px_rgba(24,24,27,0.05)] transition hover:-translate-y-0.5 hover:border-[#e95172]/40 hover:shadow-[0_16px_40px_rgba(24,24,27,0.08)]"
           >
             <div className="flex items-start justify-between gap-4">
@@ -128,7 +128,7 @@ function KnowledgeScene({ completedSteps }: { completedSteps: number }) {
   );
 }
 
-function RulesScene() {
+function RulesScene({ animateEntrance = true }: { animateEntrance?: boolean }) {
   const ruleCards = [
     { icon: PackageCheck, label: 'สินค้า', value: 'XP-200', detail: 'ตรงกับรหัส EIS-PMP-XP200' },
     { icon: Tag, label: 'ราคาต่อหน่วย', value: '18,500 บาท', detail: 'Price List September 2026' },
@@ -146,9 +146,9 @@ function RulesScene() {
         {ruleCards.map((rule, index) => (
           <motion.div
             key={rule.label}
-            initial={{ opacity: 0, y: 12 }}
+            initial={animateEntrance ? { opacity: 0, y: 12 } : false}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: index * 0.07 }}
+            transition={animateEntrance ? { delay: index * 0.07 } : { duration: 0 }}
             className="rounded-2xl border border-zinc-200 bg-white p-5 shadow-[0_12px_35px_rgba(24,24,27,0.05)]"
           >
             <div className="flex items-center gap-3">
@@ -610,6 +610,7 @@ export default function DemoPage() {
   const currentStage = completedSteps < 2 ? 0 : completedSteps < 5 ? 1 : completedSteps < 7 ? 2 : 3;
   const visibleStage = selectedStage ?? currentStage;
   const canReviewStages = status === 'review' || status === 'approved';
+  const animateStageEntrance = selectedStage === null && status === 'processing';
   const activeStep = workflowSteps[Math.min(completedSteps, workflowSteps.length - 1)];
 
   return (
@@ -775,29 +776,25 @@ export default function DemoPage() {
               </div>
 
               <div className="flex min-h-[610px] items-center justify-center py-3">
-                <AnimatePresence mode="wait">
-                  <motion.div
-                    key={visibleStage}
-                    initial={reduceMotion ? false : { opacity: 0, y: 16 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    exit={reduceMotion ? undefined : { opacity: 0, y: -10 }}
-                    transition={{ duration: 0.28, ease: [0.16, 1, 0.3, 1] }}
-                    className="w-full"
-                  >
-                    {visibleStage === 0 && <UnderstandingScene />}
-                    {visibleStage === 1 && <KnowledgeScene completedSteps={completedSteps} />}
-                    {visibleStage === 2 && <RulesScene />}
-                    {visibleStage === 3 && (
-                      <QuotationScene
-                        status={status}
-                        customerReply={customerReply}
-                        onReplyChange={setCustomerReply}
-                        onApprove={() => setStatus('approved')}
-                        reduceMotion={reduceMotion}
-                      />
-                    )}
-                  </motion.div>
-                </AnimatePresence>
+                <motion.div
+                  key={visibleStage}
+                  initial={false}
+                  animate={{ opacity: 1, y: 0 }}
+                  className="w-full"
+                >
+                  {visibleStage === 0 && <UnderstandingScene animateEntrance={animateStageEntrance} />}
+                  {visibleStage === 1 && <KnowledgeScene completedSteps={completedSteps} animateEntrance={animateStageEntrance} />}
+                  {visibleStage === 2 && <RulesScene animateEntrance={animateStageEntrance} />}
+                  {visibleStage === 3 && (
+                    <QuotationScene
+                      status={status}
+                      customerReply={customerReply}
+                      onReplyChange={setCustomerReply}
+                      onApprove={() => setStatus('approved')}
+                      reduceMotion={reduceMotion}
+                    />
+                  )}
+                </motion.div>
               </div>
 
               <div className="mx-auto mt-3 flex max-w-5xl flex-col gap-2 border-t border-zinc-200 pt-4 text-xs text-zinc-400 sm:flex-row sm:items-center sm:justify-between">
